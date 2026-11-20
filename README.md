@@ -1,8 +1,8 @@
 ---
 유형: '루트 인덱스'
 프로젝트: '광학정보모음집 — 광학계(카메라·렌즈·조명) 부품 정보 정리'
-총수집품수: 3217
-상세문서수: 243
+총수집품수: 3316
+상세문서수: 260
 수집일: '2026-11-20'
 현재출처: '화인스텍(FAINSTEC) (fainstec.com)'
 수용범위: '화인스텍 외 다른 기업의 광학계 자료도 지속 추가'
@@ -10,7 +10,7 @@
 
 # 광학정보모음집 — 카메라 · 렌즈 · 조명
 
-> **요약** | 머신비전 광학계 부품 **3217종** 수집 → 핵심 **243종**을 모델명 폴더 + README로 상세 문서화, 나머지는 소분류 인덱스로 색인
+> **요약** | 머신비전 광학계 부품 **3316종** 수집 (fainstec 3217 + CREVIS 99) → 핵심 **260종**을 모델명 폴더 + README로 상세 문서화, 나머지는 소분류 인덱스로 색인
 
 ## 이 광학정보모음집에 대하여
 
@@ -24,7 +24,7 @@
 
 | 대분류 | 총 종수 | 상세 문서 | README |
 | --- | ---: | ---: | --- |
-| 카메라 | 1395 | 48 | [카메라 README](카메라/README.md) |
+| 카메라 | 1494 | 65 | [카메라 README](카메라/README.md) |
 | 렌즈 | 1728 | 101 | [렌즈 README](렌즈/README.md) |
 | 조명 | 94 | 94 | [조명 README](조명/README.md) |
 
@@ -66,6 +66,7 @@ OpticsResearch/
 - **카메라 (48종)**: Area Scan은 `제조사 x 해상도 구간(≤2 / 2-6 / 6-29 / ≥29 MP)` 셀마다 1종, Line Scan은 제조사별 라인레이트 상위 2종, Smart Camera·CIS는 전체.
 - **렌즈 (101종)**: Macro & Line Scan / Telecentric / CCTV는 시리즈(모델명 접두) 규모별 대표(100종 이상→3, 30-99→2, 10-29→1, 10종 미만→최대 2)를 배율 분포 고르게 선택. Zoom 6종, Focus Tunable 8종, Microscope 8종, Accessory 4종.
 - **조명 (94종)**: 현재 출처에 등록된 시리즈 전체.
+- **크래비스(CREVIS) 카메라 (17종)**: Area Scan은 해상도 구간(≤2 / 2-6 / 6-29 / ≥29 MP)마다 최고 해상도 1종(동률이면 프레임레이트 상위 → MONO 순) → MU-A160M-226 · MG-A500M-FL · HX-F251M-150 · HX-E671M-65, Line Scan은 라인레이트 상위 2종 → LV-M422C · LV-M824C, SWIR(6) · Polarization(4) · 3CMOS(1) 소분류는 전체 포함.
 
 ## 현재 수록 출처 (참고 기업)
 
@@ -77,6 +78,11 @@ OpticsResearch/
   - 조명: `https://www.fainstec.com/product/product.php?ptype=list&catcode=10141000` (Line 10141100 / Light Source 10141200 / Area Ctrl 10141300 / Line Ctrl 10141400)
   - `prdcode` / `catcode`는 화인스텍 사이트의 제품·카테고리 코드입니다. 다른 출처는 자체 식별자를 사용합니다.
   - 단종 제품은 포함하지 않았습니다 (사이트 기본 필터 기준).
+- **크래비스(CREVIS)** — https://www.crevis.co.kr (2026-11-20 추가)
+  - 비전카메라 카테고리: `https://www.crevis.co.kr/Product/productListD2?depth1=2` (스탠다드 `depth2=10` / 편광 `11` / SWIR `19` / 3CMOS `20`)
+  - 상세 URL: `https://www.crevis.co.kr/Product/productView?idx=<idx>` — `idx`는 crevis.co.kr의 제품 코드.
+  - 2026 카탈로그 PDF: `https://files.ioguide2-autoupdate.com/` (gige / usb3.0 / cameralink / coaXPress / linescan / Special 카탈로그).
+  - 현재 수록 99종: Area Scan 84 · Line Scan 4 · SWIR 6 · Polarization 4 · 3CMOS 1.
 - (이후 추가될 출처는 이 목록에 추가합니다)
 
 ## 다른 회사 정보 추가 시 규칙

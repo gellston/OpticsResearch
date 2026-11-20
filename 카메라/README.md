@@ -1,26 +1,29 @@
 ---
 유형: '인덱스'
 대분류: '카메라'
-제품수: 1395
-상세문서수: 48
-소분류: 'Area Scan, CIS, Line Scan, Smart Camera'
+제품수: 1494
+상세문서수: 65
+소분류: 'Area Scan, CIS, Line Scan, Smart Camera, SWIR, Polarization, 3CMOS'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10111000'
-출처사이트: 'fainstec.com'
+출처사이트: 'fainstec.com, crevis.co.kr'
 ---
 
 # 카메라
 
-> **요약** | 총 **1395종** 수집 · 핵심 **48종** 상세 문서화 · 산업용 에어리어스캔·라인스캔·스마트·CIS 카메라
+> **요약** | 총 **1494종** 수집 (fainstec 1395 + CREVIS 99) · 핵심 **65종** 상세 문서화 · 산업용 에어리어스캔·라인스캔·스마트·CIS·SWIR·편광·3CMOS 카메라
 
 ## 소분류 구성
 
 | 소분류 | 종수 | 상세 문서 | 인덱스 |
 | --- | ---: | ---: | --- |
-| Area Scan | 1181 | 23 | [전체 목록](_인덱스/Area-Scan.md) |
-| CIS | 3 | 3 | [전체 목록](_인덱스/CIS.md) |
-| Line Scan | 200 | 11 | [전체 목록](_인덱스/Line-Scan.md) |
-| Smart Camera | 11 | 11 | [전체 목록](_인덱스/Smart-Camera.md) |
+| Area Scan | 1265 | 27 | [fainstec](_인덱스/Area-Scan.md) · [CREVIS](_인덱스/CREVIS.md) |
+| CIS | 3 | 3 | [fainstec](_인덱스/CIS.md) |
+| Line Scan | 204 | 13 | [fainstec](_인덱스/Line-Scan.md) · [CREVIS](_인덱스/CREVIS.md) |
+| Smart Camera | 11 | 11 | [fainstec](_인덱스/Smart-Camera.md) |
+| SWIR | 6 | 6 | [CREVIS](_인덱스/CREVIS.md) |
+| Polarization | 4 | 4 | [CREVIS](_인덱스/CREVIS.md) |
+| 3CMOS | 1 | 1 | [CREVIS](_인덱스/CREVIS.md) |
 
 ## 상세 문서 보유 모델
 
@@ -74,15 +77,42 @@
 | Inno-eye S2106 | DONG IL TECH. | Smart Camera | 2 MP | 2.2 x 2.2 µm | GIGE | [README](Inno-eye-S2106/README.md) |
 | Inno-eye T4007 | DONG IL TECH | Smart Camera | 0.9 MP | 3.75 x 3.75 µm | GIGE | [README](Inno-eye-T4007/README.md) |
 | SR Series | DONG IL TECH. | Smart Camera | 1.2 MP | 3.75 x 3.75 µm | USB 2.0 | [README](SR-Series/README.md) |
+| HX-E671M-65 | CREVIS | Area Scan | 67.11 MP | 2.5 x 2.5 µm | COAXPRESS | [README](HX-E671M-65/README.md) |
+| HX-F251M-150 | CREVIS | Area Scan | 26.21 MP | 2.5 x 2.5 µm | COAXPRESS | [README](HX-F251M-150/README.md) |
+| MG-A500M-FL | CREVIS | Area Scan | 5.1 MP | 2.74 x 2.74 µm | GIGE | [README](MG-A500M-FL/README.md) |
+| MU-A160M-226 | CREVIS | Area Scan | 1.58 MP | 3.45 x 3.45 µm | USB3.0 | [README](MU-A160M-226/README.md) |
+| LV-M824C | CREVIS | Line Scan | 4 MP | 7 x 7 µm | CAMERALINK | [README](LV-M824C/README.md) |
+| LV-M422C | CREVIS | Line Scan | 2 MP | 7 x 7 µm | CAMERALINK | [README](LV-M422C/README.md) |
+| HX-A530SW | CREVIS | SWIR | 5.33 MP | 3.45 x 3.45 µm | COAXPRESS | [README](HX-A530SW/README.md) |
+| HX-A530SW (AirJet) | CREVIS | SWIR | 5.33 MP | 3.45 x 3.45 µm | COAXPRESS | [README](HX-A530SW-AirJet/README.md) |
+| HC-A130SW | CREVIS | SWIR | 1.34 MP | 5 x 5 µm | CAMERALINK | [README](HC-A130SW/README.md) |
+| HG-A130SW | CREVIS | SWIR | 1.34 MP | 5 x 5 µm | GIGE | [README](HG-A130SW/README.md) |
+| HX-A130SW | CREVIS | SWIR | 1.34 MP | 5 x 5 µm | COAXPRESS | [README](HX-A130SW/README.md) |
+| HG-T130SW | CREVIS | SWIR | 1.19 MP | 7 x 7 µm | GIGE | [README](HG-T130SW/README.md) |
+| MG-A121P-9 | CREVIS | Polarization | 12.37 MP | 3.45 x 3.45 µm | GIGE | [README](MG-A121P-9/README.md) |
+| MC-A121P-67 | CREVIS | Polarization | 12.29 MP | 3.45 x 3.45 µm | CAMERALINK | [README](MC-A121P-67/README.md) |
+| MC-A500P-163 | CREVIS | Polarization | 5.07 MP | 3.45 x 3.45 µm | CAMERALINK | [README](MC-A500P-163/README.md) |
+| MG-A500P-22 | CREVIS | Polarization | 5.07 MP | 3.45 x 3.45 µm | GIGE | [README](MG-A500P-22/README.md) |
+| TC-A160K-102 | CREVIS | 3CMOS | 1.58 MP | 3.45 x 3.45 µm | CAMERALINK | [README](TC-A160K-102/README.md) |
 
 ## 전체 제품 색인
 
-아래 인덱스 파일에는 현재 수집된 카메라 전체 1395종이 포함되어 있습니다. prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다. (현재 출처: 화인스텍(FAINSTEC) · fainstec.com)
+현재 수집된 카메라 **1494종**이 아래 인덱스 파일에 포함되어 있습니다. 출처별로 나뉘어 있습니다.
+
+### fainstec.com (화인스텍 · 1395종)
+
+prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다.
 
 - **Area Scan** (1181종) → [_인덱스/Area-Scan.md](_인덱스/Area-Scan.md)
 - **CIS** (3종) → [_인덱스/CIS.md](_인덱스/CIS.md)
 - **Line Scan** (200종) → [_인덱스/Line-Scan.md](_인덱스/Line-Scan.md)
 - **Smart Camera** (11종) → [_인덱스/Smart-Camera.md](_인덱스/Smart-Camera.md)
+
+### crevis.co.kr (크래비스 · 99종)
+
+idx는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.crevis.co.kr/Product/productView?idx=<idx> 형식입니다.
+
+- **CREVIS 전체** (99종: Area Scan 84 · Line Scan 4 · SWIR 6 · Polarization 4 · 3CMOS 1) → [_인덱스/CREVIS.md](_인덱스/CREVIS.md)
 
 ## 관련 문서
 
