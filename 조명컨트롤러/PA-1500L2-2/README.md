@@ -9,6 +9,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281184&page=1&catcode=10141400'
 출처사이트: 'fainstec.com'
+최대지원출력: '1500 W'
 prdcode: '2605281184'
 ---
 
@@ -24,6 +25,7 @@ prdcode: '2605281184'
 
 | 항목 | 값 |
 | --- | --- |
+| 최대지원출력 | 1500 W |
 | 조명 유형 | Line Controller |
 | 카테고리 | — |
 | 모델명 | PA-1500L2 |

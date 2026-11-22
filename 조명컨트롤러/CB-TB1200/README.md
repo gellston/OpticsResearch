@@ -10,6 +10,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281182&page=1&catcode=10141400'
 출처사이트: 'fainstec.com'
+최대지원출력: '1200 W'
 prdcode: '2605281182'
 ---
 
@@ -27,6 +28,7 @@ prdcode: '2605281182'
 
 | 항목 | 값 |
 | --- | --- |
+| 최대지원출력 | 1200 W |
 | 조명 유형 | Line Controller |
 | 카테고리 | pwm |
 | 모델명 | CB-TB1200 |

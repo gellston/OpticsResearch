@@ -11,6 +11,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281129&page=1&catcode=10141000'
 출처사이트: 'fainstec.com'
+정격출력: '1.1 ~ 7.2 W'
 prdcode: '2605281129'
 ---
 
@@ -28,6 +29,7 @@ prdcode: '2605281129'
 
 | 항목 | 값 |
 | --- | --- |
+| 정격출력 | 1.1 ~ 7.2 W |
 | 조명 유형 | Area Light |
 | 카테고리 | LOW-ANGLE RING LIGHTING |
 | 모델명 | LV-DL Series |

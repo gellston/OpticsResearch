@@ -64,6 +64,8 @@ OpticsResearch/
 | FOV | 카메라 + 렌즈 **조합** 시 산출되는 시야 | `FOV(mm) = 센서 사이즈(mm) ÷ 배율` — 렌즈 단독 값이 아니므로 상세 문서에 공식으로 표기 |
 | Optical Resolution | **렌즈 자체**의 광학적 분해능 | 카메라 센서와 무관. 제조사에 표기가 있을 때만 값 기재, 없으면 공란(`null`) |
 | NA | 렌즈의 개구수(Numerical Aperture) | NA가 있으면 이론 분해능 `0.61λ/NA`(λ=550nm)를 참고값으로 병기 |
+| 정격출력 | 조명(발광체)의 소비 전력 | `조명/` 전용. **단위는 출처 그대로** — LVS는 시리즈 내 모델별 W 범위, REVOX 라인 조명은 발광 길이 주문제작이라 `W/m`, REVOX 광섬유 광원은 `VA` |
+| 최대지원출력 | 조명컨트롤러가 구동 가능한 최대 전력 | `조명컨트롤러/` 전용. 발광체의 정격출력 ≤ 이 값이면 조합 가능 (제조사 무관) |
 
 ## 상세 문서화 규칙
 
@@ -87,6 +89,14 @@ OpticsResearch/
   - 상세 URL: `https://www.crevis.co.kr/Product/productView?idx=<idx>` — `idx`는 crevis.co.kr의 제품 코드.
   - 2026 카탈로그 PDF: `https://files.ioguide2-autoupdate.com/` (gige / usb3.0 / cameralink / coaXPress / linescan / Special 카탈로그).
   - 현재 수록 99종: Area Scan 84 · Line Scan 4 · SWIR 6 · Polarization 4 · 3CMOS 1.
+- **LVS (주)엘브이에스** — https://www.lvs.co.kr (2026-11-23 추가 · **정격출력(W) 수집용**)
+  - 조명 시리즈: `https://www.lvs.co.kr/products/db-db2-dbs-series` 등 — `seriesData`의 `Color Option / Power Consumption(W)` 컬럼에서 모델별 소비전력(W) 수집
+  - 컨트롤러 사양서 PDF: `http://lvs.webmaker21.kr/pdf/LVS-EN-0412.pdf` 등 — 사양 표의 `Power` 값 (EN/ES/ET/DN 계열)
+  - 주의: LVS 사양서 PDF는 대부분 **이미지 스캔본**이라 `pdftotext`로 텍스트가 안 나옵니다. HTML 페이지의 `seriesData`를 우선합니다.
+- **REVOX 레보ックス** — https://www.revox.jp (2026-11-23 추가 · **정격출력(W) 수집용**)
+  - 라인 조명: `https://www.revox.jp/products/led/spx-ta200/` 등 — `消費電力（最大照度時）`. 발광 길이가 주문제작이라 **`W/m` 단위**입니다.
+  - 광섬유 광원: `https://www.revox.jp/products/optical-fiber/` — `消費電力（typ.）` (`W` 또는 `VA`)
+  - 전용 전원: 각 제품 페이지의 `専用電源 技術仕様` (`最大300W` / `最大600W` 등)
 - (이후 추가될 출처는 이 목록에 추가합니다)
 
 ## 다른 회사 정보 추가 시 규칙

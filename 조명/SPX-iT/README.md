@@ -9,6 +9,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281138&page=1&catcode=10141100'
 출처사이트: 'fainstec.com'
+정격출력: '220 W/m (잠정)'
 prdcode: '2605281138'
 ---
 
@@ -26,6 +27,7 @@ prdcode: '2605281138'
 
 | 항목 | 값 |
 | --- | --- |
+| 정격출력 | 220 W/m (잠정) |
 | 조명 유형 | Line Light |
 | 카테고리 | LINE LIGHT |
 | 모델명 | SPX-iT |

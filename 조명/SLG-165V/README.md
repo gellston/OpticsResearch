@@ -8,6 +8,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281158&page=1&catcode=10141200'
 출처사이트: 'fainstec.com'
+정격출력: 'Typ. 205 VA (MAX)'
 prdcode: '2605281158'
 ---
 
@@ -23,6 +24,7 @@ prdcode: '2605281158'
 
 | 항목 | 값 |
 | --- | --- |
+| 정격출력 | Typ. 205 VA (MAX) |
 | 조명 유형 | Light Source |
 | 카테고리 | — |
 | 모델명 | SLG-165V |

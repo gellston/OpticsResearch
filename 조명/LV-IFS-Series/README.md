@@ -11,6 +11,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281125&page=1&catcode=10141000'
 출처사이트: 'fainstec.com'
+정격출력: '0.8 ~ 8.7 W'
 prdcode: '2605281125'
 ---
 
@@ -28,6 +29,7 @@ prdcode: '2605281125'
 
 | 항목 | 값 |
 | --- | --- |
+| 정격출력 | 0.8 ~ 8.7 W |
 | 조명 유형 | Area Light |
 | 카테고리 | INDIRECT BACK LIGHTING |
 | 모델명 | LV-IFS Series |

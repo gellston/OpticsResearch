@@ -8,6 +8,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281159&page=1&catcode=10141200'
 출처사이트: 'fainstec.com'
+정격출력: 'Typ. 200 VA (MAX)'
 prdcode: '2605281159'
 ---
 
@@ -23,6 +24,7 @@ prdcode: '2605281159'
 
 | 항목 | 값 |
 | --- | --- |
+| 정격출력 | Typ. 200 VA (MAX) |
 | 조명 유형 | Light Source |
 | 카테고리 | — |
 | 모델명 | SLG-150V |

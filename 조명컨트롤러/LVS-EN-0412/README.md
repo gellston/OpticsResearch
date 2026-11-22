@@ -9,6 +9,7 @@
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281180&page=1&catcode=10141300'
 출처사이트: 'fainstec.com'
+최대지원출력: '125 W'
 prdcode: '2605281180'
 ---
 
@@ -24,6 +25,7 @@ prdcode: '2605281180'
 
 | 항목 | 값 |
 | --- | --- |
+| 최대지원출력 | 125 W |
 | 조명 유형 | Area Controller |
 | 카테고리 | — |
 | 모델명 | LVS-EN-0412 |
