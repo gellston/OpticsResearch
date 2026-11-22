@@ -6,7 +6,7 @@
 모델명: 'VS-1214V-IR'
 제조사: 'VS Technology'
 배율: '—'
-WD_mm: '—'
+WD_mm: '300'
 FOV: '카메라 + 렌즈 조합 시 산출'
 마운트: 'C'
 이미지서클: '1/2'
@@ -34,7 +34,7 @@ prdcode: '2605281743'
 | 렌즈 타입 | CCTV(일반) 렌즈 (CCTV) |
 | 제조사 | VS Technology |
 | 배율 | — |
-| WD (mm) | — |
+| WD (mm) | 300 |
 | Focal Length | 12.00 |
 | FOV | 카메라 + 렌즈 조합 시 산출 |
 | Optical Resolution (광학 분해능) | — |
@@ -55,7 +55,7 @@ prdcode: '2605281743'
 | 제조사 | VS Technology |
 | Focal Length | 12.00 |
 | 배율 | — |
-| MOD(max WD) | — |
+| MOD(max WD) | 300 |
 | MOD(min WD) | — |
 | F/# | — |
 | 이미지 서클 | 1/2 |

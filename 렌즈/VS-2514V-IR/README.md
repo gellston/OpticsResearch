@@ -6,7 +6,7 @@
 모델명: 'VS-2514V-IR'
 제조사: 'VS Technology'
 배율: '—'
-WD_mm: '—'
+WD_mm: '500'
 FOV: '카메라 + 렌즈 조합 시 산출'
 마운트: 'C'
 이미지서클: '1'
@@ -34,7 +34,7 @@ prdcode: '2605281741'
 | 렌즈 타입 | CCTV(일반) 렌즈 (CCTV) |
 | 제조사 | VS Technology |
 | 배율 | — |
-| WD (mm) | — |
+| WD (mm) | 500 |
 | Focal Length | 25.00 |
 | FOV | 카메라 + 렌즈 조합 시 산출 |
 | Optical Resolution (광학 분해능) | — |
@@ -55,7 +55,7 @@ prdcode: '2605281741'
 | 제조사 | VS Technology |
 | Focal Length | 25.00 |
 | 배율 | — |
-| MOD(max WD) | — |
+| MOD(max WD) | 500 |
 | MOD(min WD) | — |
 | F/# | — |
 | 이미지 서클 | 1 |

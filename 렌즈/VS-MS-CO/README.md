@@ -32,7 +32,7 @@ prdcode: '2605281773'
 | 렌즈 타입 | 현미경 CCD 유닛 (Microscope CCD Unit) |
 | 제조사 | VS Technology |
 | 배율 | 10 |
-| WD (mm) | — |
+| WD (mm) | 22.3mm |
 | FOV | 카메라 + 렌즈 조합 시 산출 |
 | Optical Resolution (광학 분해능) | — |
 | 마운트 | C |
