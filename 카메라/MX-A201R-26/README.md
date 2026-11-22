@@ -1,0 +1,101 @@
+---
+유형: '카메라'
+대분류: '카메라'
+소분류: 'Area Scan'
+모델명: 'MX-A201R-26'
+제조사: 'CREVIS'
+해상도_Mp: '20.15'
+해상도_픽셀: '5488 x 3672'
+픽셀사이즈_um: '2.4 x 2.4'
+센서: 'IMX183'
+인터페이스: 'COAXPRESS'
+마운트: 'C'
+프레임레이트: '26'
+상태: '현행'
+수집일: '2026-11-20'
+출처: 'https://www.crevis.co.kr/Product/productView?idx=630'
+출처사이트: 'crevis.co.kr'
+idx: '630'
+---
+
+# 카메라 · MX-A201R-26
+
+> **요약** | CREVIS · Area Scan · 20.15 MP · 5488 x 3672 · 픽셀 2.4 x 2.4 µm · COAXPRESS · C 마운트
+
+## 핵심 사양
+
+| 항목 | 값 |
+| --- | --- |
+| 모델명 | MX-A201R-26 |
+| 제조사 | CREVIS |
+| 카메라 유형 | Area Scan |
+| 해상도 | 20.15 MP |
+| 해상도 (픽셀) | 5488 x 3672 |
+| 픽셀 사이즈 | 2.4 x 2.4 µm |
+| 센서 | IMX183 |
+| 센서 타입 | CMOS |
+| 모노/컬러 | MONO |
+| 프레임레이트(fps) | 26 |
+| 인터페이스 | COAXPRESS |
+| 마운트 | C |
+
+## 전체 사양 (원본 전체 필드)
+
+| 항목 | 값 |
+| --- | --- |
+| 제조사 | CREVIS |
+| 센서 | IMX183 |
+| 센서타입 | CMOS |
+| 모노/컬러 | MONO |
+| 해상도 | 20.15 |
+| 픽셀 | 5488 x 3672 |
+| 셀사이즈 | 2.4 x 2.4 |
+| 프레임레이트 | 26 |
+| 인터페이스 | COAXPRESS |
+| 마운트 | C |
+| Sensor size | 1” |
+| Scanning method | Full / ROI / Reverse (X, Y, All) |
+| Synchronization | Internal(Freerun), External(CXP or Circular), Software trigger via PC |
+| Trigger mode | Fixed shutter, Pulse width shutter |
+| Shutter | Rolling / Global Reset |
+| Shutter speed | 806.00us ~ 3sec |
+| Gain | Analog : 0dB~27dB (1x ~ 22.5x) Digital : 0dB ~ 18dB (1x ~ 8x) |
+| Black level | Analog : 0 ~ 1023 (10bit) / Digital : 0 ~ 1023 (10bit) |
+| Gamma / LUT | Adjustable LUT (10bit to 10bit) |
+| Auto white balance | Off / Once / Continuous (Only Color Models) |
+| Auto gain / exposure | Off / Once / Continuous |
+| Pixel Data Format | Mono8/10 |
+| Minimum illumination | 1.0 lx, F1.4, Gain MAX, without IR cut filter |
+| Video I/F | CoaXpress |
+| Video format | Mono8/10, Mono10 Packed |
+| SNR | 38dB |
+| Function control | GainAuto, ExposureAuto, BalanceWhiteAuto, Acquisition Frame Rate(Adjustable), Shading Correction(FFC), Color Transformation Control, Noise Reduction Filter |
+| Lens mount | C mount |
+| Power requirements | DC 12V ~ 24V ± 10% or PoCXP |
+| Consumption (DC) | < 2.9W |
+| Consumption (PoCXP) | < 2.9W |
+| Weight | < 49g |
+| Dimension | 29 x 29 x 29 mm (Without mount) |
+| Temperature | 00℃ ~ 40℃ (Operating) / -5℃ ~ 45℃ (with <20~80% RH) (Storage) |
+| Vibration / Shock | 98m/s (10G) / 196m/s (20.0G) |
+| Standard compliancy | CE (EN61326-1;2006년; Class A) |
+| Environments | RoHS, WEEE |
+| Warranty | 3 years |
+
+## 시스템 조합 참고
+
+- **FOV** = 센서 사이즈(mm) ÷ 렌즈 배율 — 카메라 단독 값이 아니라 렌즈와 조합할 때 결정됩니다.
+- **센서 사이즈(계산)** = 픽셀사이즈 × 해상도 → **13.1712 x 8.8128 mm** (FOV 계산 기준)
+- **시스템 공간 분해능** = 픽셀 사이즈 ÷ 배율 → 배율 1x에서 약 2.4 µm/px, 배율 10x에서 약 0.24 µm/px (픽셀 사이즈 원문: 2.4 x 2.4)
+- **렌즈 선택 조건**: 이미지 서클 ≥ 센서 대각선, 렌즈 마운트 = 카메라 마운트, 렌즈 광학 분해능 ≥ 시스템 요구 분해능.
+- 이 카메라의 센서 포맷: **1"**
+
+## 다운로드 · 출처
+
+- [제품 상세 페이지 (crevis.co.kr)](https://www.crevis.co.kr/Product/productView?idx=630)
+
+## 관련 문서
+
+- [카메라 대분류 인덱스](../README.md)
+- [CREVIS 전체 목록](../_인덱스/CREVIS.md)
+- [광학계 계산 기준 (FOV · 분해능)](../../광학계-계산-기준.md)
