@@ -1,7 +1,7 @@
 ---
 유형: '인덱스'
 대분류: '카메라'
-제품수: 1494
+제품수: 1493
 상세문서수: 65
 소분류: 'Area Scan, CIS, Line Scan, Smart Camera, SWIR, Polarization, 3CMOS'
 수집일: '2026-11-20'
@@ -11,7 +11,7 @@
 
 # 카메라
 
-> **요약** | 총 **1494종** 수집 (fainstec 1395 + CREVIS 99) · 핵심 **65종** 상세 문서화 · 산업용 에어리어스캔·라인스캔·스마트·CIS·SWIR·편광·3CMOS 카메라
+> **요약** | 총 **1493종** 수집 (fainstec 1394 + CREVIS 99) · 핵심 **65종** 상세 문서화 · 산업용 에어리어스캔·라인스캔·스마트·CIS·SWIR·편광·3CMOS 카메라
 
 ## 소분류 구성
 
@@ -46,7 +46,7 @@
 | SP-45000C-CXP4 | JAI | Area Scan | 45 MP | 3.2 x 3.2 µm | COAXPRESS | [README](SP-45000C-CXP4/README.md) |
 | STC-ANB521PCL | SENTECH | Area Scan | 5.2 MP | 5 x 5 µm | CAMERALINK | [README](STC-ANB521PCL/README.md) |
 | STC-CMC2MCL | SENTECH | Area Scan | 2 MP | 5.5 x 5.5 µm | CAMERALINK | [README](STC-CMC2MCL/README.md) |
-| STC-LBGP251BCXP124 | SENTECH | Area Scan | 25 MP | 25 x 25 µm | COAXPRESS | [README](STC-LBGP251BCXP124/README.md) |
+| STC-LBGP251BCXP124 | SENTECH | Area Scan | 25 MP | 2.5 x 2.5 µm | COAXPRESS | [README](STC-LBGP251BCXP124/README.md) |
 | TS2MCL-340M/C | I-TEK | Area Scan | 2 MP | 5.5 µm | CAMERALINK | [README](TS2MCL-340M-C/README.md) |
 | TS5M3CXP-105M/C | I-TEK | Area Scan | 5.3 MP | 4.8 µm | COAXPRESS | [README](TS5M3CXP-105M-C/README.md) |
 | TTS26MCXP-36M/C | I-TEK | Area Scan | 26 MP | 3.76 µm | COAXPRESS | [README](TTS26MCXP-36M-C/README.md) |
@@ -97,13 +97,13 @@
 
 ## 전체 제품 색인
 
-현재 수집된 카메라 **1494종**이 아래 인덱스 파일에 포함되어 있습니다. 출처별로 나뉘어 있습니다.
+현재 수집된 카메라 **1493종**이 아래 인덱스 파일에 포함되어 있습니다. 출처별로 나뉘어 있습니다.
 
-### fainstec.com (화인스텍 · 1395종)
+### fainstec.com (화인스텍 · 1394종)
 
 prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다.
 
-- **Area Scan** (1181종) → [_인덱스/Area-Scan.md](_인덱스/Area-Scan.md)
+- **Area Scan** (1180종) → [_인덱스/Area-Scan.md](_인덱스/Area-Scan.md)
 - **CIS** (3종) → [_인덱스/CIS.md](_인덱스/CIS.md)
 - **Line Scan** (200종) → [_인덱스/Line-Scan.md](_인덱스/Line-Scan.md)
 - **Smart Camera** (11종) → [_인덱스/Smart-Camera.md](_인덱스/Smart-Camera.md)

@@ -2,19 +2,18 @@
 유형: '인덱스'
 대분류: '카메라'
 소분류: 'Area Scan'
-제품수: 1181
+제품수: 1180
 출처사이트: 'fainstec.com'
 수집일: '2026-11-20'
 ---
 
-# 카메라 · Area Scan 전체 목록 (1181종)
+# 카메라 · Area Scan 전체 목록 (1180종)
 
 > 해상도 단위 MP, 픽셀사이즈 단위 µm. `문서` 열이 있는 모델은 상세 README를 보유합니다.
 
 | 모델명 | 제조사 | 해상도(MP) | 해상도(픽셀) | 픽셀사이즈(µm) | 센서 | 센서타입 | 모노/컬러 | 프레임레이트 | 라인레이트 | 인터페이스 | 마운트 | 이미지서클 | prdcode |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TS50M2CL-15M | I-TEK | 50 | 7920 x 6004 | 4.6 | CMV50000 | CMOS | MONO | 15 | — | CAMERALINK | F | 45.72 | 2605283391 |
-| [STC-LBGP251BCXP124](../STC-LBGP251BCXP124/README.md) | SENTECH | 25 | 5120 x 5120 | 25 x 25 | GMAX0505 | CMOS | MONO | 150 | — | COAXPRESS | C | 11 | 2605283390 |
 | [TTS604MCXP-6M/C](../TTS604MCXP-6M-C/README.md) | I-TEK | 604 | 42576 x 31920 | 3.76 | IMX411 | CMOS | MONO, COLOR | 6.02 | — | COAXPRESS | M72 | 66.69 | 2605283303 |
 | TTS246MNCXP10-5M/C | I-TEK | 246 | 19552 x 12588 | 1.5 | LI8020 | CMOS | MONO, COLOR | 5.08 | — | COAXPRESS | M58 | 34.88 | 2605283302 |
 | TTS245MSCXP12-12M/C | I-TEK | 245 | 19200 x 12800 | 2.81 | — | CMOS | MONO, COLOR | 12.4 | — | COAXPRESS | M72 | 64.84 | 2605283301 |
@@ -232,7 +231,7 @@
 | STC-LCGP251BCXP124-T | SENTECH | 25 | 5120 x 5120 | 2.5 x 2.5 | GMAX0505 | CMOS | COLOR | 150 | — | COAXPRESS | C | 1.1 | 2605281877 |
 | STC-LBGP251BCXP124-T | SENTECH | 25 | 5120 x 5120 | 2.5 x 2.5 | GMAX0505 | CMOS | MONO | 150 | — | COAXPRESS | C | 1.1 | 2605281876 |
 | STC-LCGP251BCXP124 | SENTECH | 25 | 5120 x 5120 | 2.5 x 2.5 | GMAX0505 | CMOS | COLOR | 150 | — | COAXPRESS | C | 1.1 | 2605281875 |
-| STC-LBGP251BCXP124 | SENTECH | 25 | 5120 x 5120 | 2.5 x 2.5 | GMAX0505 | CMOS | MONO | 150 | — | COAXPRESS | C | 1.1 | 2605281874 |
+| [STC-LBGP251BCXP124](../STC-LBGP251BCXP124/README.md) | SENTECH | 25 | 5120 x 5120 | 2.5 x 2.5 | GMAX0505 | CMOS | MONO | 150 | — | COAXPRESS | C | 1.1 | 2605281874 |
 | STC-LBS132POE-SWIR | SENTECH | 1.3 | 1280 x 1024 | 5.0 x 5.0 | IMX990 | CMOS | MONO | 84 | — | GIGE | C | 1/2 | 2605281873 |
 | STC-LBS34POE-SWIR | SENTECH | 0.3 | 656 x 520 | 5.0 x 5.0 | IMX991 | CMOS | MONO | 240.6 | — | GIGE | C | 1/4 | 2605281872 |
 | GOX-24505M-5GE | JAI | 24.5 | 5328 x 4608 | 2.74 x 2.74 | IMX540 | CMOS | MONO | 22 | — | GIGE | C | 1.2 | 2605281871 |
