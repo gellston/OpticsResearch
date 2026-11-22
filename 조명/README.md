@@ -35,7 +35,7 @@
 
 ## 관련 문서
 
-- [광원 (Light Source)](../조명컨트롤러/Light-Source.md)
+- [광원 (Light Source)](../조명컨트롤러/_인덱스/Light-Source.md)
 - [조명컨트롤러 (구동 장치)](../조명컨트롤러/README.md)
 - [루트 README](../README.md)
 - [광학계 계산 기준](../광학계-계산-기준.md)
