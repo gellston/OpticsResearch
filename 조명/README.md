@@ -17,8 +17,8 @@
 
 | 소분류 | 종수 | 상세 문서 | 인덱스 |
 | --- | ---: | ---: | --- |
-| Area Light | 132 | 132 | [Area Light](_인덱스/Area-Light.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
-| Line Light | 36 | 36 | [Line Light](_인덱스/Line-Light.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
+| Area Light | 132 | 132 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
+| Line Light | 36 | 36 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
 
 ## 상세 문서
 
@@ -30,8 +30,8 @@
 
 아래 인덱스 파일에는 현재 수집된 조명 전체 168종이 포함되어 있습니다. prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다. (현재 출처: 화인스텍(FAINSTEC) · fainstec.com)
 
-- **Area Light** (18종) → [_인덱스/Area-Light.md](_인덱스/Area-Light.md)
-- **Line Light** (14종) → [_인덱스/Line-Light.md](_인덱스/Line-Light.md)
+- **fainstec.com (화인스텍)** (32종: Area Light 18 · Line Light 14) → [_인덱스/Fainstec.md](_인덱스/Fainstec.md)
+
 - **알트시스템 (Altsystem)** (109종) → [_인덱스/Altsystem.md](_인덱스/Altsystem.md)
 - **엘파인 (Lfine)** (27종) → [_인덱스/Lfine.md](_인덱스/Lfine.md)
 
