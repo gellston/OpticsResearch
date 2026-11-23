@@ -1,25 +1,25 @@
 ---
 유형: '인덱스'
 대분류: '카메라'
-제품수: 1676
-상세문서수: 1676
+제품수: 2131
+상세문서수: 2131
 소분류: 'Area Scan, CIS, Line Scan, TDI Line Scan, Smart Camera, SWIR, Polarization, 3CMOS'
-수집일: '2026-11-20'
-출처: 'fainstec.com · crevis.co.kr · vieworks.com'
+수집일: '2026-11-23'
+출처: 'fainstec.com · crevis.co.kr · vieworks.com · baslerweb.com'
 출처사이트: 'fainstec.com, crevis.co.kr, vieworks.com'
 ---
 
 # 카메라
 
-> **요약** | 총 **1676종** 수집 (fainstec 1394 + CREVIS 99 + Vieworks 183) · 전 **1676종** 상세 문서화 · 산업용 에어리어스캔·라인스캔·TDI·스마트·CIS·SWIR·편광·3CMOS 카메라
+> **요약** | 총 **2131종** 수집 · 전 **2131종** 상세 문서화
 
 ## 소분류 구성
 
 | 소분류 | 종수 | 상세 문서 | 인덱스 |
 | --- | ---: | ---: | --- |
-| Area Scan | 1373 | 1373 | [fainstec](_인덱스/Fainstec.md) · [CREVIS](_인덱스/CREVIS.md)  · [Vieworks](_인덱스/Vieworks.md) |
+| Area Scan | 1812 | 1812 | [fainstec](_인덱스/Fainstec.md) · [CREVIS](_인덱스/CREVIS.md) · [Vieworks](_인덱스/Vieworks.md) · **[Basler](_인덱스/Basler.md)** |
 | CIS | 3 | 3 | [fainstec](_인덱스/Fainstec.md) |
-| Line Scan | 228 | 228 | [fainstec](_인덱스/Fainstec.md) · [CREVIS](_인덱스/CREVIS.md)  · [Vieworks](_인덱스/Vieworks.md) |
+| Line Scan | 244 | 244 | [fainstec](_인덱스/Fainstec.md) · [CREVIS](_인덱스/CREVIS.md) · [Vieworks](_인덱스/Vieworks.md) · **[Basler](_인덱스/Basler.md)** |
 | TDI Line Scan | 50 | 50 | [Vieworks](_인덱스/Vieworks.md) |
 | Smart Camera | 11 | 11 | [fainstec](_인덱스/Fainstec.md) |
 | SWIR | 6 | 6 | [CREVIS](_인덱스/CREVIS.md) |
@@ -34,7 +34,7 @@
 
 ## 전체 제품 색인
 
-현재 수집된 카메라 **1676종**이 아래 인덱스 파일에 포함되어 있습니다. 출처별로 나뉘어 있습니다.
+현재 수집된 카메라 **2131종**이 아래 인덱스 파일에 포함되어 있습니다. 출처별로 나뉘어 있습니다.
 
 ### fainstec.com (화인스텍 · 1394종)
 
@@ -47,6 +47,12 @@ prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fa
 idx는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.crevis.co.kr/Product/productView?idx=<idx> 형식입니다.
 
 - **CREVIS 전체** (99종: Area Scan 84 · Line Scan 4 · SWIR 6 · Polarization 4 · 3CMOS 1) → [_인덱스/CREVIS.md](_인덱스/CREVIS.md)
+
+### docs.baslerweb.com (바슬러 · 455종)
+
+`baslerweb.com`은 봇 차단(403)이라 공식 문서 사이트에서 수집했습니다. 모델명은 Basler 공식 표기(`a2A1920-51gcBAS` 등)이며, 스펙은 각 모델 페이지의 사양 표에서 추출했습니다.
+
+- **바슬러 (Basler)** (455종: Area Scan 439 · Line Scan 16) → [_인덱스/Basler.md](_인덱스/Basler.md)
 
 ## 관련 문서
 

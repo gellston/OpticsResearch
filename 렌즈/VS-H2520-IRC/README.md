@@ -4,7 +4,7 @@
 모델명: 'VS-H2520-IRC'
 제조사: 'VS Technology'
 렌즈타입: 'CCTV(일반) 렌즈 (CCTV)'
-배율: '—'
+배율: null
 WD_mm: '500'
 FOV: '카메라 + 렌즈 조합 시 산출'
 마운트: 'C'

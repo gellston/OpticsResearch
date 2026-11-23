@@ -1,17 +1,17 @@
 ---
 유형: '인덱스'
 대분류: '조명컨트롤러'
-제품수: 99
-상세문서수: 99
+제품수: 104
+상세문서수: 104
 소분류: 'Area Controller, Light Source, Line Controller'
-수집일: '2026-11-20'
-출처: 'fainstec.com · altsystem.co.kr · lfine.co.kr'
+수집일: '2026-11-23'
+출처: 'fainstec.com · altsystem.co.kr · lfine.co.kr · ia.omron.com'
 출처사이트: 'fainstec.com, altsystem.co.kr, lfine.co.kr'
 ---
 
 # 조명컨트롤러
 
-> **요약** | 총 **99종** 수집 · 전 **99종** 상세 문서화 · 광원·면/선 조명 구동 컨트롤러 (LVS · REVOX · 알트시스템 · 엘파인)
+> **요약** | 총 **104종** 수집 · 전 **104종** 상세 문서화
 
 ## 이 대분류를 따로 둔 이유
 
@@ -26,7 +26,7 @@
 
 | 소분류 | 종수 | 상세 문서 | 인덱스 |
 | --- | ---: | ---: | --- |
-| Area Controller | 56 | 56 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
+| Area Controller | 61 | 61 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) · **[Omron](_인덱스/Omron.md)** |
 | Light Source | 17 | 17 | [fainstec](_인덱스/Fainstec.md) |
 | Line Controller | 26 | 26 | [fainstec](_인덱스/Fainstec.md) |
 
@@ -52,6 +52,8 @@ fainstec 항목의 `prdcode`는 화인스텍 사이트의 제품 코드이고, �
 
 - **알트시스템 (Altsystem)** (6종) → [_인덱스/Altsystem.md](_인덱스/Altsystem.md)
 - **엘파인 (Lfine)** (31종) → [_인덱스/Lfine.md](_인덱스/Lfine.md)
+
+- **Omron** (5종) → [_인덱스/Omron.md](_인덱스/Omron.md)
 
 ## 관련 문서
 

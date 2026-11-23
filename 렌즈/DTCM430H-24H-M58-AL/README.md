@@ -7,7 +7,7 @@
 배율: '1'
 WD_mm: '40'
 FOV: '카메라 + 렌즈 조합 시 산출'
-NA: '—'
+NA: null
 이미지서클: '23.6(4/3)'
 Optical_Resolution: null
 상태: '현행'

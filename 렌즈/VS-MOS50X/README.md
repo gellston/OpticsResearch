@@ -6,7 +6,7 @@
 렌즈타입: '현미경 CCD 유닛 (Microscope CCD Unit)'
 배율: '50'
 FOV: '카메라 + 렌즈 조합 시 산출'
-마운트: '—'
+마운트: null
 Optical_Resolution: null
 상태: '현행'
 수집일: '2026-11-20'

@@ -4,7 +4,7 @@
 모델명: 'VS-0828HV'
 제조사: 'VS Technology'
 렌즈타입: 'CCTV(일반) 렌즈 (CCTV)'
-배율: '—'
+배율: null
 WD_mm: '100'
 FOV: '카메라 + 렌즈 조합 시 산출'
 마운트: 'C'

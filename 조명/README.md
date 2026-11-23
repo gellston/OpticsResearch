@@ -1,24 +1,24 @@
 ---
 유형: '인덱스'
 대분류: '조명'
-제품수: 168
-상세문서수: 168
+제품수: 273
+상세문서수: 273
 소분류: 'Area Light, Line Light'
-수집일: '2026-11-20'
-출처: 'fainstec.com · altsystem.co.kr · lfine.co.kr'
+수집일: '2026-11-23'
+출처: 'fainstec.com · altsystem.co.kr · lfine.co.kr · baslerweb.com · ccs-grp.com · ia.omron.com'
 출처사이트: 'fainstec.com, altsystem.co.kr, lfine.co.kr'
 ---
 
 # 조명
 
-> **요약** | 총 **168종** 수집 · 전 **168종** 상세 문서화 · 면·선 LED 조명 (발광 소자)
+> **요약** | 총 **273종** 수집 · 전 **273종** 상세 문서화
 
 ## 소분류 구성
 
 | 소분류 | 종수 | 상세 문서 | 인덱스 |
 | --- | ---: | ---: | --- |
-| Area Light | 132 | 132 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
-| Line Light | 36 | 36 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
+| Area Light | 219 | 219 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) · **[Basler](_인덱스/Basler.md)** · **[CCS](_인덱스/CCS.md)** · **[Omron](_인덱스/Omron.md)** |
+| Line Light | 54 | 54 | [fainstec](_인덱스/Fainstec.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) · **[CCS](_인덱스/CCS.md)** · **[Omron](_인덱스/Omron.md)** |
 
 ## 상세 문서
 
@@ -36,6 +36,10 @@ fainstec 항목의 `prdcode`는 화인스텍 사이트의 제품 코드이고, �
 
 - **알트시스템 (Altsystem)** (109종) → [_인덱스/Altsystem.md](_인덱스/Altsystem.md)
 - **엘파인 (Lfine)** (27종) → [_인덱스/Lfine.md](_인덱스/Lfine.md)
+
+- **Basler** (10종) → [_인덱스/Basler.md](_인덱스/Basler.md)
+- **CCS** (76종) → [_인덱스/CCS.md](_인덱스/CCS.md)
+- **Omron** (19종) → [_인덱스/Omron.md](_인덱스/Omron.md)
 
 ## 관련 문서
 
