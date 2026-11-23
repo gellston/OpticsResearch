@@ -42,7 +42,7 @@ OpticsResearch/
 *   **핵심 산출물**: `_인덱스/*.md` 표, `<대분류>/README.md` 카운트, 상세 문서.
 
 ### 2. `scripts/kb.py` — 빠른 조회 & 부품 조합
-*   **역할**: 3,300+ 인덱스 행을 매번 grep하지 않고, JSON 캐시로 밀리초 단위 조회.
+*   **역할**: 4,200+ 인덱스 행을 매번 grep하지 않고, JSON 캐시로 밀리초 단위 조회.
 *   **명령어**:
   - `kb.py search <텍스트> [--cat 카메라|렌즈|조명]` — 전체 텍스트 검색
   - `kb.py cam iface=GIGE mono --mp 5` / `kb.py lens tele --wd 110 --mount C` / `kb.py light power=...` — 열 필터
