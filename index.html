@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>광학정보모음집 — 카메라 · 렌즈 · 조명 · 조명컨트롤러</title>
+<script src="kb-data.js"></script>
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --ink:#16181d; --sub:#6b7280; --line:#e5e7eb;
+  --brand:#2563eb; --brand-soft:#eff4ff; --chip:#f1f3f5; --accent:#0f766e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.hwrap{max-width:1400px;margin:0 auto;padding:16px 20px 0}
+h1{font-size:18px;margin:0 0 2px}
+.sub{color:var(--sub);font-size:12.5px;margin-bottom:12px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);
+  padding:7px 14px;border-radius:999px;cursor:pointer;font-size:13.5px;font-weight:600}
+.tab:hover{background:var(--chip)}
+.tab.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.tab .n{opacity:.75;font-weight:500;font-size:12px;margin-left:5px}
+main{max-width:1400px;margin:0 auto;padding:16px 20px 60px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+input[type=search]{flex:1;min-width:260px;padding:9px 13px;border:1px solid var(--line);
+  border-radius:9px;font-size:14px;background:var(--card)}
+input[type=search]:focus{outline:2px solid var(--brand-soft);border-color:var(--brand)}
+select{padding:8px 10px;border:1px solid var(--line);border-radius:9px;
+  background:var(--card);font-size:13px;max-width:230px}
+.count{color:var(--sub);font-size:13px;white-space:nowrap}
+.count b{color:var(--ink);font-size:15px}
+.tablewrap{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:auto}
+table{border-collapse:collapse;width:100%;min-width:900px}
+th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--line);
+  font-size:13px;vertical-align:middle}
+td{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:270px}
+th{background:#fafbfc;font-weight:700;position:sticky;top:0;cursor:pointer;
+  white-space:nowrap;user-select:none;z-index:2}
+th:hover{background:var(--brand-soft)}
+th .ar{color:var(--brand);font-size:11px}
+tbody tr:hover{background:#fafbff}
+td.model{font-weight:600;white-space:nowrap}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+td.sub{white-space:nowrap;color:#374151}
+td.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:1px 7px;
+  font-size:12px;color:#374151}
+.chip.cam{background:#eef2ff;color:#3730a3}
+.chip.len{background:#f0fdf4;color:#166534}
+.chip.lit{background:#fff7ed;color:#9a3412}
+.chip.ctrl{background:#fdf2f8;color:#9d174d}
+.na{color:#c0c4cc}
+.more{display:block;margin:14px auto;padding:10px 22px;border:1px solid var(--line);
+  background:var(--card);border-radius:9px;cursor:pointer;font-size:14px;font-weight:600}
+.more:hover{background:var(--brand-soft);border-color:var(--brand)}
+.empty{padding:48px;text-align:center;color:var(--sub)}
+footer{max-width:1400px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-size:12.5px}
+@media(max-width:720px){.hwrap,main,footer{padding-left:12px;padding-right:12px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hwrap">
+    <h1>광학정보모음집</h1>
+    <div class="sub" id="subline">카메라 · 렌즈 · 조명 · 조명컨트롤러 부품 검색</div>
+    <div class="tabs" id="tabs"></div>
+  </div>
+</header>
+<main>
+  <div class="bar">
+    <input type="search" id="q" placeholder="모델명 · 제조사 · 센서 · 인터페이스 검색…" autocomplete="off">
+    <select id="fsub"><option value="">소분류 (전체)</option></select>
+    <select id="fmk"><option value="">제조사 (전체)</option></select>
+    <span class="count" id="cnt"></span>
+  </div>
+  <div class="tablewrap">
+    <table id="tbl"><thead id="th"></thead><tbody id="tb"></tbody></table>
+    <div class="empty" id="empty" style="display:none">조건에 맞는 항목이 없습니다.</div>
+  </div>
+  <button class="more" id="more" style="display:none">더 보기</button>
+</main>
+<footer>
+  데이터 출처: <a href="https://github.com/gellston/OpticsResearch">github.com/gellston/OpticsResearch</a>
+  · 각 행의 모델명을 누르면 상세 문서로 이동합니다.
+</footer>
+<script>
+(function(){
+const KB = window.KB || {items:[],cats:[]};
+const REPO = "https://github.com/gellston/OpticsResearch/blob/main/";
+
+/* 카테고리별 표 컬럼 (별칭 정규화) */
+const ALIAS = {
+  "해상도(MP)":["해상도(MP)","해상도_Mp","MP"],
+  "해상도(픽셀)":["해상도(픽셀)","해상도_픽셀"],
+  "픽셀사이즈(µm)":["픽셀사이즈(µm)","픽셀사이즈_um","픽셀사이즈(um)"],
+  "프레임레이트":["프레임레이트","프레임레이트(fps)","fps"],
+  "라인레이트":["라인레이트","라인레이트(kHz)","khz"],
+  "이미지서클":["이미지서클","이미지 서클"],
+  "센서":["센서"],
+  "모노/컬러":["모노/컬러","컬러"],
+  "인터페이스":["인터페이스"],
+  "마운트":["마운트"],
+  "시리즈":["시리즈"],
+  "렌즈타입":["렌즈타입","Lens Type"],
+  "배율":["배율","MAG"],
+  "WD(mm)":["WD(mm)","WD"],
+  "WD min":["WD min(mm)"],
+  "WD max":["WD max(mm)"],
+  "Focal Length":["Focal Length"],
+  "NA":["NA"],
+  "F/#":["F/#"],
+  "카테고리":["Category","조명타입"],
+  "색상":["색상","Color Option"],
+  "소비전력(W)":["소비전력(W)"],
+  "정격출력":["정격출력"],
+  "크기":["크기","Size"],
+  "채널수":["채널수","채널(CH)","Channels"],
+  "최대지원출력":["최대지원출력"],
+  "Power":["Power","Output"],
+  "Type":["Type"],
+  "센서타입":["센서타입","센서포맷"]
+};
+
+const COLS = {
+  "카메라":[["모델명","m"],["제조사","k"],["소분류","sub"],["해상도(MP)","해상도(MP)"],
+            ["해상도(픽셀)","해상도(픽셀)"],["픽셀사이즈(µm)","픽셀사이즈(µm)"],
+            ["모노/컬러","모노/컬러"],["프레임레이트","프레임레이트"],
+            ["인터페이스","인터페이스"],["센서","센서"],["마운트","마운트"],["시리즈","시리즈"]],
+  "렌즈":[["모델명","m"],["제조사","k"],["소분류","sub"],["렌즈타입","렌즈타입"],
+          ["배율","배율"],["WD(mm)","WD(mm)"],["Focal Length","Focal Length"],
+          ["이미지서클","이미지서클"],["마운트","마운트"],["NA","NA"],["F/#","F/#"]],
+  "조명":[["모델명","m"],["제조사","k"],["소분류","sub"],["카테고리","카테고리"],
+          ["시리즈","시리즈"],["색상","색상"],["소비전력(W)","소비전력(W)"],
+          ["정격출력","정격출력"],["크기","크기"]],
+  "조명컨트롤러":[["모델명","m"],["제조사","k"],["소분류","sub"],["Type","Type"],
+          ["채널수","채널수"],["최대지원출력","최대지원출력"],["Power","Power"],
+          ["시리즈","시리즈"]]
+};
+
+function getVal(item, canon){
+  const keys = ALIAS[canon] || [canon];
+  for(const k of keys){ if(item[k]!==undefined && item[k]!=="" && item[k]!=="—") return item[k]; }
+  for(const k of keys){ if(item[k]!==undefined) return item[k]; }
+  return "";
+}
+
+/* 상태 */
+let cat = KB.cats[0];
+let q = "", stateSub = "", stateMk = "", sortCol = null, sortDir = 1, limit = 200;
+const CHIP = {"카메라":"cam","렌즈":"len","조명":"lit","조명컨트롤러":"ctrl"};
+
+function catsWithCount(){
+  return KB.cats.map(c=>({c,n:KB.items.filter(i=>i.c===c).length}));
+}
+function filtered(){
+  let arr = KB.items.filter(i=>i.c===cat);
+  if(stateSub) arr = arr.filter(i=>i.sub===stateSub);
+  if(stateMk)  arr = arr.filter(i=>i.k===stateMk);
+  if(q){
+    const t = q.toLowerCase();
+    arr = arr.filter(i=>{
+      for(const v of Object.values(i)) if(typeof v==="string" && v.toLowerCase().includes(t)) return true;
+      return false;
+    });
+  }
+  if(sortCol){
+    const canon = sortCol;
+    arr = arr.slice().sort((a,b)=>{
+      let x = getVal(a,canon), y = getVal(b,canon);
+      if(canon==="해상도(MP)"||canon==="프레임레이트"||canon==="배율"){
+        const nx=parseFloat(String(x).replace(/[^\d.]/g,"")), ny=parseFloat(String(y).replace(/[^\d.]/g,""));
+        if(!isNaN(nx)&&!isNaN(ny)) return (nx-ny)*sortDir;
+      }
+      return String(x).localeCompare(String(y),"ko")*sortDir;
+    });
+  }
+  return arr;
+}
+function facets(arr){
+  const subs = {}, mks = {};
+  arr.forEach(i=>{ subs[i.sub||"—"]=(subs[i.sub||"—"]||0)+1; mks[i.k||"—"]=(mks[i.k||"—"]||0)+1; });
+  return {subs,mks};
+}
+var fsubEl = document.getElementById("fsub");
+var fmkEl = document.getElementById("fmk");
+function fillSelect(sel, obj, keep){
+  const cur = keep ? sel.value : "";
+  const opts = Object.entries(obj).sort((a,b)=>b[1]-a[1]);
+  sel.innerHTML = sel.dataset.head + opts.map(([k,n])=>
+    `<option value="${esc(k)}">${esc(k)} (${n})</option>`).join("");
+  sel.value = cur;
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+function render(){
+  /* 탭 */
+  tabs.innerHTML = catsWithCount().map(o=>
+    `<button class="tab${o.c===cat?" on":""}" data-c="${esc(o.c)}">${esc(o.c)}<span class="n">${o.n}</span></button>`).join("");
+  /* 필터 */
+  const base = KB.items.filter(i=>i.c===cat);
+  const f0 = facets(base);
+  fillSelect(fsubEl, f0.subs, true);
+  fillSelect(fmkEl, f0.mks, true);
+
+  const arr = filtered();
+  cnt.innerHTML = `<b>${arr.length.toLocaleString()}</b> / ${base.length.toLocaleString()}건`;
+
+  /* 헤더 */
+  const cols = COLS[cat] || COLS["카메라"];
+  th.innerHTML = "<tr>"+cols.map(([label])=>{
+    const on = sortCol===label;
+    return `<th data-k="${esc(label)}">${esc(label)} <span class="ar">${on?(sortDir>0?"▲":"▼"):""}</span></th>`;
+  }).join("")+"</tr>";
+
+  /* 본문 */
+  const show = arr.slice(0, limit);
+  tb.innerHTML = show.map(i=>{
+    return "<tr>"+cols.map(([label,canon])=>{
+      if(canon==="m"){
+        const href = i.s ? REPO + i.c + "/" + i.s.replace(/^\.\.\//,"") : "#";
+        return `<td class="model"><a href="${esc(href)}">${esc(i.m)}</a></td>`;
+      }
+      let v = getVal(i, canon);
+      if(v===""||v==="—"||v===undefined)
+        return `<td class="na">—</td>`;
+      const numeric = ["해상도(MP)","프레임레이트","배율","라인레이트","채널수"].includes(canon);
+      const cls = numeric ? "num" : (canon==="sub" ? "sub" : "");
+      return `<td class="${cls}" title="${esc(v)}">${esc(v)}</td>`;
+    }).join("")+"</tr>";
+  }).join("");
+
+  empty.style.display = arr.length ? "none" : "block";
+  more.style.display = arr.length > limit ? "block" : "none";
+  more.textContent = `더 보기 (남은 ${(arr.length-limit).toLocaleString()}건)`;
+}
+
+/* 이벤트 */
+tabs.addEventListener("click", e=>{
+  const b = e.target.closest(".tab"); if(!b) return;
+  cat = b.dataset.c; limit=200; sortCol=null; sortDir=1;
+  q=""; document.getElementById("q").value="";
+  stateSub=""; stateMk="";
+  render();
+});
+qEl = document.getElementById("q");
+qEl.addEventListener("input", ()=>{ q=qEl.value.trim(); limit=200; render(); });
+fsubEl = document.getElementById("fsub");
+fsubEl.dataset.head = '<option value="">소분류 (전체)</option>';
+fmkEl = document.getElementById("fmk");
+fmkEl.dataset.head = '<option value="">제조사 (전체)</option>';
+fsubEl.addEventListener("change", ()=>{ stateSub=fsubEl.value; limit=200; render(); });
+fmkEl.addEventListener("change", ()=>{ stateMk=fmkEl.value; limit=200; render(); });
+th.addEventListener("click", e=>{
+  const t = e.target.closest("th"); if(!t) return;
+  const k = t.dataset.k;
+  if(sortCol===k) sortDir = -sortDir; else { sortCol=k; sortDir=1; }
+  render();
+});
+more.addEventListener("click", ()=>{ limit += 300; render(); });
+
+document.getElementById("subline").textContent =
+  `총 ${KB.items.length.toLocaleString()}종 · 카메라 · 렌즈 · 조명 · 조명컨트롤러 부품 검색`;
+render();
+})();
+</script>
+</body>
+</html>
