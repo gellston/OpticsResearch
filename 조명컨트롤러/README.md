@@ -1,8 +1,8 @@
 ---
 유형: '인덱스'
 대분류: '조명컨트롤러'
-제품수: 62
-상세문서수: 62
+제품수: 99
+상세문서수: 99
 소분류: 'Area Controller, Light Source, Line Controller'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10141000'
@@ -11,7 +11,7 @@
 
 # 조명컨트롤러
 
-> **요약** | 총 **62종** 수집 · 전 **62종** 상세 문서화 · 광원·면/선 조명 구동 컨트롤러 (LVS · REVOX)
+> **요약** | 총 **99종** 수집 · 전 **99종** 상세 문서화 · 광원·면/선 조명 구동 컨트롤러 (LVS · REVOX · 알트시스템 · 엘파인)
 
 ## 이 대분류를 따로 둔 이유
 
@@ -26,9 +26,9 @@
 
 | 소분류 | 종수 | 상세 문서 | 인덱스 |
 | --- | ---: | ---: | --- |
-| Area Controller | 19 | 19 | [전체 목록](_인덱스/Area-Controller.md) |
-| Light Source | 17 | 17 | [전체 목록](_인덱스/Light-Source.md) |
-| Line Controller | 26 | 26 | [전체 목록](_인덱스/Line-Controller.md) |
+| Area Controller | 56 | 56 | [Area Controller](_인덱스/Area-Controller.md) · [알트시스템](_인덱스/Altsystem.md) · [엘파인](_인덱스/Lfine.md) |
+| Light Source | 17 | 17 | [Light Source](_인덱스/Light-Source.md) |
+| Line Controller | 26 | 26 | [Line Controller](_인덱스/Line-Controller.md) |
 
 ## 상세 문서
 
@@ -44,11 +44,13 @@
 
 ## 전체 제품 색인
 
-아래 인덱스 파일에는 현재 수집된 조명컨트롤러 전체 45종이 포함되어 있습니다. prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다. (현재 출처: 화인스텍(FAINSTEC) · fainstec.com)
+아래 인덱스 파일에는 현재 수집된 조명컨트롤러 전체 99종이 포함되어 있습니다. prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다. (현재 출처: 화인스텍(FAINSTEC) · fainstec.com)
 
 - **Area Controller** (19종) → [_인덱스/Area-Controller.md](_인덱스/Area-Controller.md)
 - **Light Source** (17종) → [_인덱스/Light-Source.md](_인덱스/Light-Source.md)
 - **Line Controller** (26종) → [_인덱스/Line-Controller.md](_인덱스/Line-Controller.md)
+- **알트시스템 (Altsystem)** (6종) → [_인덱스/Altsystem.md](_인덱스/Altsystem.md)
+- **엘파인 (Lfine)** (31종) → [_인덱스/Lfine.md](_인덱스/Lfine.md)
 
 ## 관련 문서
 

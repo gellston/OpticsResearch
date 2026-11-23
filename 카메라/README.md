@@ -1,9 +1,9 @@
 ---
 유형: '인덱스'
 대분류: '카메라'
-제품수: 1493
-상세문서수: 1493
-소분류: 'Area Scan, CIS, Line Scan, Smart Camera, SWIR, Polarization, 3CMOS'
+제품수: 1676
+상세문서수: 1676
+소분류: 'Area Scan, CIS, Line Scan, TDI Line Scan, Smart Camera, SWIR, Polarization, 3CMOS'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10111000'
 출처사이트: 'fainstec.com, crevis.co.kr'
@@ -11,15 +11,16 @@
 
 # 카메라
 
-> **요약** | 총 **1493종** 수집 (fainstec 1394 + CREVIS 99) · 전 **1493종** 상세 문서화 · 산업용 에어리어스캔·라인스캔·스마트·CIS·SWIR·편광·3CMOS 카메라
+> **요약** | 총 **1676종** 수집 (fainstec 1394 + CREVIS 99 + Vieworks 183) · 전 **1676종** 상세 문서화 · 산업용 에어리어스캔·라인스캔·TDI·스마트·CIS·SWIR·편광·3CMOS 카메라
 
 ## 소분류 구성
 
 | 소분류 | 종수 | 상세 문서 | 인덱스 |
 | --- | ---: | ---: | --- |
-| Area Scan | 1265 | 1180 | [fainstec](_인덱스/Area-Scan.md) · [CREVIS](_인덱스/CREVIS.md) |
+| Area Scan | 1373 | 1373 | [fainstec](_인덱스/Area-Scan.md) · [CREVIS](_인덱스/CREVIS.md)  · [Vieworks](_인덱스/Vieworks.md) |
 | CIS | 3 | 3 | [fainstec](_인덱스/CIS.md) |
-| Line Scan | 204 | 200 | [fainstec](_인덱스/Line-Scan.md) · [CREVIS](_인덱스/CREVIS.md) |
+| Line Scan | 228 | 228 | [fainstec](_인덱스/Line-Scan.md) · [CREVIS](_인덱스/CREVIS.md)  · [Vieworks](_인덱스/Vieworks.md) |
+| TDI Line Scan | 50 | 50 | [Vieworks](_인덱스/Vieworks.md) |
 | Smart Camera | 11 | 11 | [fainstec](_인덱스/Smart-Camera.md) |
 | SWIR | 6 | 6 | [CREVIS](_인덱스/CREVIS.md) |
 | Polarization | 4 | 4 | [CREVIS](_인덱스/CREVIS.md) |

@@ -29,7 +29,7 @@ def repo_root():
 
 REPO = repo_root()
 CACHE = os.path.join(REPO, '.kb-cache', 'index.json')
-CATS = ['카메라', '렌즈', '조명']
+CATS = ['카메라', '렌즈', '조명', '조명컨트롤러']
 
 FMT_MM = {'1/4': 4.0, '1/3.6': 4.96, '1/3': 6.0, '1/2.7': 6.6, '1/2.5': 7.18,
           '1/2.3': 7.7, '1/2': 8.0, '1/1.8': 8.93, '1/1.7': 9.5, '1/1.6': 10.0,
@@ -121,18 +121,32 @@ def header_map(hdr_cells):
     return m
 
 def parse_index(path, cat):
+    """Parse every table in the index file.
+
+    An index may hold several sections (e.g. Vieworks Area/Line/TDI, CREVIS
+    SWIR/Polarization), each with its own header + separator. Arm the column
+    map on each `| 모델명 |` header and skip separator rows, otherwise headers
+    and separators get counted as products.
+    """
     out = []
     txt = open(path, encoding='utf-8').read().split('\n')
-    hdr_i = next((i for i, l in enumerate(txt) if l.startswith('| 모델명')), None)
-    if hdr_i is None: return out
-    hm = header_map(split_row(txt[hdr_i]))
+    hm = None
     src = os.path.basename(path)
-    for l in txt[hdr_i + 2:]:
+    for l in txt:
         if not l.startswith('|'):
-            if l.startswith('#'): continue
-            else: continue
+            continue
         cells = split_row(l)
-        if len(cells) < 3 or cells == [''] * len(cells): continue
+        if not cells:
+            continue
+        if cells[0] == '모델명':
+            hm = header_map(cells)
+            continue
+        if hm is None:
+            continue
+        if len(cells) < 3 or cells == [''] * len(cells):
+            continue
+        if all(c and set(c) <= set('-:') for c in cells):
+            continue
         row = {}
         for k, i in hm.items():
             if i < len(cells): row[k] = cells[i]

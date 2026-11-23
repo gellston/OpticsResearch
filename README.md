@@ -1,8 +1,8 @@
 ---
 유형: '루트 인덱스'
 프로젝트: '광학정보모음집 — 광학계(카메라·렌즈·조명·조명컨트롤러) 부품 정보 정리'
-총수집품수: 3314
-상세문서수: 3314
+총수집품수: 3670
+상세문서수: 3670
 수집일: '2026-11-20'
 현재출처: '화인스텍(FAINSTEC) (fainstec.com)'
 수용범위: '화인스텍 외 다른 기업의 광학계 자료도 지속 추가'
@@ -10,7 +10,7 @@
 
 # 광학정보모음집 — 카메라 · 렌즈 · 조명 · 조명컨트롤러
 
-> **요약** | 머신비전 광학계 부품 **3314종** 수집 (fainstec 3215 + CREVIS 99) → 전 모델 **3314종**에 모델명 폴더 + README 상세 문서 보유
+> **요약** | 머신비전 광학계 부품 **3670종** 수집 (fainstec 3215 + CREVIS 99 + Vieworks 183 + 알트시스템 115 + 엘파인 58) → 전 모델 **3670종**에 모델명 폴더 + README 상세 문서 보유
 
 ## 이 광학정보모음집에 대하여
 
@@ -24,10 +24,10 @@
 
 | 대분류 | 총 종수 | 상세 문서 | README |
 | --- | ---: | ---: | --- |
-| 카메라 | 1493 | 1493 | [카메라 README](카메라/README.md) |
+| 카메라 | 1676 | 1676 | [카메라 README](카메라/README.md) |
 | 렌즈 | 1727 | 1727 | [렌즈 README](렌즈/README.md) |
-| 조명 | 32 | 32 | [조명 README](조명/README.md) |
-| 조명컨트롤러 | 62 | 62 | [조명컨트롤러 README](조명컨트롤러/README.md) |
+| 조명 | 168 | 168 | [조명 README](조명/README.md) |
+| 조명컨트롤러 | 99 | 99 | [조명컨트롤러 README](조명컨트롤러/README.md) |
 
 ## 디렉토리 구조
 
@@ -97,6 +97,18 @@ OpticsResearch/
   - 라인 조명: `https://www.revox.jp/products/led/spx-ta200/` 등 — `消費電力（最大照度時）`. 발광 길이가 주문제작이라 **`W/m` 단위**입니다.
   - 광섬유 광원: `https://www.revox.jp/products/optical-fiber/` — `消費電力（typ.）` (`W` 또는 `VA`)
   - 전용 전원: 각 제품 페이지의 `専用電源 技術仕様` (`最大300W` / `最大600W` 등)
+- **뷰웍스 (Vieworks)** — https://vision.vieworks.com (2026-11-23 추가 · **카메라**)
+  - Area Scan: `https://vision.vieworks.com/kr/camera/area_scan` (VC·VN·VNP·VP·VQ·VX·VZ 시리즈)
+  - Line Scan: `https://vision.vieworks.com/kr/camera/line_scan` (VL 시리즈)
+  - TDI Line Scan: `https://vision.vieworks.com/kr/camera/tdi_line_scan` (VT·VTC 시리즈)
+  - 시리즈 페이지의 `data-role="opTable"` 블록에서 모델 표를 수집합니다.
+- **알트시스템 (Altsystem)** — https://www.altsystem.co.kr (2026-11-23 추가 · **조명 · 조명컨트롤러**)
+  - sitemap.xml에 시리즈 페이지 200여 개가 있어 그 목록으로 수집합니다.
+  - 조명 사양표: `Model | Color | Dimension | Power Consumption(W) | Input Voltage(DC V)`
+  - 컨트롤러 사양표: `Model | Dimension | Output Channel(CH) | Power Consumption(W)`
+- **엘파인 (Lfine)** — https://lfine.co.kr (2026-11-23 추가 · **조명 · 조명컨트롤러**)
+  - 조명 8종류(직접조사·무영·투과·동축낙사·특수·라인스캔·스폿·커스텀) + 제어기(정전압·정전류·스트로브)
+  - 사이트가 SPA라 상세 스펙이 페이지에 노출되지 않아 **모델명·시리즈·채널수만** 수록하고 나머지는 `—`로 둡니다.
 - (이후 추가될 출처는 이 목록에 추가합니다)
 
 ## 다른 회사 정보 추가 시 규칙
