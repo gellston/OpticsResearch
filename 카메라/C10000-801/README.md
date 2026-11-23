@@ -1,5 +1,4 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Line Scan'
 모델명: 'C10000-801'
@@ -7,15 +6,16 @@
 해상도_Mp: '2'
 해상도_픽셀: '2048 x 128'
 픽셀사이즈_um: '12 x 12'
-센서: 'TDI - Back thinned type'
 인터페이스: 'CAMERALINK'
 마운트: 'F'
 프레임레이트: '50'
+센서: 'TDI - Back thinned type'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281005&page=1&catcode=10111100'
 출처사이트: 'fainstec.com'
 prdcode: '2605281005'
+
 ---
 
 # 카메라 · C10000-801

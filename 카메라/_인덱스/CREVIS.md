@@ -1,12 +1,13 @@
----
-유형: '인덱스'
+---유형: '인덱스'
 대분류: '카메라'
 소분류: 'Area Scan, Line Scan, SWIR, Polarization, 3CMOS'
 제품수: 99
 상세문서수: 99
 제조사: 'CREVIS'
-출처사이트: 'crevis.co.kr'
 수집일: '2026-11-20'
+출처: https://www.crevis.co.kr/Product/productListD2?depth1=2
+출처사이트: 'crevis.co.kr'
+
 ---
 
 # 카메라 · CREVIS 전체 목록 (99종)

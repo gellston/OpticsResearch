@@ -1,13 +1,13 @@
----
-유형: '인덱스'
+---유형: '인덱스'
 대분류: '조명'
 소분류: 'Area Light, Line Light'
 제품수: 32
 상세문서수: 32
 제조사: '복수 (fainstec 유통)'
+수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10141000'
 출처사이트: 'fainstec.com'
-수집일: '2026-11-20'
+
 ---
 
 # 조명 · fainstec 전체 목록 (32종)

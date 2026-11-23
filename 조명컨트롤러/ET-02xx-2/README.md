@@ -1,17 +1,17 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Line Controller'
-조명타입: 'constant'
 모델명: 'ET-02xx'
 제조사: 'LVS'
 채널수: '2'
+최대지원출력: '20 W'
+조명타입: 'constant'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281193&page=1&catcode=10141400'
 출처사이트: 'fainstec.com'
-최대지원출력: '20 W'
 prdcode: '2605281193'
+
 ---
 
 # 조명 · ET-02xx

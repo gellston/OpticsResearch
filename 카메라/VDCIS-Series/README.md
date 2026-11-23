@@ -1,5 +1,4 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'CIS'
 모델명: 'VDCIS Series'
@@ -9,6 +8,7 @@
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281965&page=1&catcode=10111300'
 출처사이트: 'fainstec.com'
 prdcode: '2605281965'
+
 ---
 
 # 카메라 · VDCIS Series

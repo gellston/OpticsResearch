@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Macro & Line Scan'
-렌즈타입: '매크로·라인스캔 렌즈 (Macro & Line Scan)'
 모델명: 'VS-4.5-35F'
 제조사: 'VS Technology'
+렌즈타입: '매크로·라인스캔 렌즈 (Macro & Line Scan)'
 배율: '4.5~4.7'
 WD_mm: '58.3~58.9'
 FOV: '카메라 + 렌즈 조합 시 산출'
@@ -16,6 +15,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281359&page=1&catcode=10121000'
 출처사이트: 'fainstec.com'
 prdcode: '2605281359'
+
 ---
 
 # 렌즈 · VS-4.5-35F

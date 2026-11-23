@@ -1,7 +1,7 @@
 ---
 유형: '인덱스'
 대분류: '조명'
-소분류: "Area Light, Line Light"
+소분류: Area Light, Line Light
 제품수: 109
 상세문서수: 109
 제조사: '알트시스템'

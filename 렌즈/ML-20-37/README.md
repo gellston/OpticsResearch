@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Focus Tunable Lens'
-렌즈타입: '초점가변(Focus Tunable) 렌즈 (Focus Tunable Lens)'
 모델명: 'ML-20-37'
 제조사: 'OPTOTUNE'
+렌즈타입: '초점가변(Focus Tunable) 렌즈 (Focus Tunable Lens)'
 FOV: '카메라 + 렌즈 조합 시 산출'
 Optical_Resolution: null
 상태: '현행'
@@ -12,6 +11,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281032&page=1&catcode=10121400'
 출처사이트: 'fainstec.com'
 prdcode: '2605281032'
+
 ---
 
 # 렌즈 · ML-20-37

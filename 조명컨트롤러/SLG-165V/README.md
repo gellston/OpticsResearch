@@ -1,15 +1,15 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Light Source'
 모델명: 'SLG-165V'
 제조사: 'REVOX'
+정격출력: 'Typ. 205 VA (MAX)'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281158&page=1&catcode=10141200'
 출처사이트: 'fainstec.com'
-정격출력: 'Typ. 205 VA (MAX)'
 prdcode: '2605281158'
+
 ---
 
 # 조명 · SLG-165V

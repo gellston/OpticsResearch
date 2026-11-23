@@ -1,19 +1,19 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Microscope CCD Unit'
-렌즈타입: '현미경 CCD 유닛 (Microscope CCD Unit)'
 모델명: 'VS-MOS20X'
 제조사: 'VS Technology'
+렌즈타입: '현미경 CCD 유닛 (Microscope CCD Unit)'
 배율: '20'
-WD_mm: '11'
 FOV: '카메라 + 렌즈 조합 시 산출'
 Optical_Resolution: null
+WD_mm: '11'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281767&page=1&catcode=10121500'
 출처사이트: 'fainstec.com'
 prdcode: '2605281767'
+
 ---
 
 # 렌즈 · VS-MOS20X

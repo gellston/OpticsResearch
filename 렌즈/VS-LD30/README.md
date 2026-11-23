@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Macro & Line Scan'
-렌즈타입: '매크로·라인스캔 렌즈 (Macro & Line Scan)'
 모델명: 'VS-LD30'
 제조사: 'VS Technology'
+렌즈타입: '매크로·라인스캔 렌즈 (Macro & Line Scan)'
 배율: '0.1~0.23'
 WD_mm: '143.1~312.7'
 FOV: '카메라 + 렌즈 조합 시 산출'
@@ -16,6 +15,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281367&page=1&catcode=10121000'
 출처사이트: 'fainstec.com'
 prdcode: '2605281367'
+
 ---
 
 # 렌즈 · VS-LD30

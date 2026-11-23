@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Telecentric'
-렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 모델명: 'WWK0345-220-111'
 제조사: 'Vico Imaging'
+렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 배율: '0.345'
 WD_mm: '220'
 FOV: '카메라 + 렌즈 조합 시 산출'
@@ -16,6 +15,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605282632&page=1&catcode=10121100'
 출처사이트: 'fainstec.com'
 prdcode: '2605282632'
+
 ---
 
 # 렌즈 · WWK0345-220-111

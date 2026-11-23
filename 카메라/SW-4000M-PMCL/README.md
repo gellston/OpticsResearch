@@ -1,5 +1,4 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Line Scan'
 모델명: 'SW-4000M-PMCL'
@@ -7,15 +6,16 @@
 해상도_Mp: '4'
 해상도_픽셀: '4096 x 1'
 픽셀사이즈_um: '7.5 x 7.5'
-센서: 'CUSTOM SENSOR (APS-C)'
 인터페이스: 'CAMERALINK'
 마운트: 'F'
 프레임레이트: '200'
+센서: 'CUSTOM SENSOR (APS-C)'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281007&page=1&catcode=10111100'
 출처사이트: 'fainstec.com'
 prdcode: '2605281007'
+
 ---
 
 # 카메라 · SW-4000M-PMCL

@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'CCTV'
-렌즈타입: 'CCTV(일반) 렌즈 (CCTV)'
 모델명: 'WH013-390C-125'
 제조사: 'Vico Imaging'
+렌즈타입: 'CCTV(일반) 렌즈 (CCTV)'
 배율: '1.3'
 WD_mm: '390'
 FOV: '카메라 + 렌즈 조합 시 산출'
@@ -16,6 +15,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605282418&page=1&catcode=10121200'
 출처사이트: 'fainstec.com'
 prdcode: '2605282418'
+
 ---
 
 # 렌즈 · WH013-390C-125

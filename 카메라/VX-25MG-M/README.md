@@ -1,11 +1,10 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Area Scan'
 모델명: 'VX-25MG-M'
 제조사: 'Vieworks'
-해상도_픽셀: '5120 × 5120'
 해상도_Mp: '26.21'
+해상도_픽셀: '5120 × 5120'
 픽셀사이즈_um: '4.5 × 4.5'
 센서: 'VITA-25K'
 인터페이스: 'Gigabit Ethernet'
@@ -14,6 +13,7 @@
 수집일: '2026-11-23'
 출처: 'https://vision.vieworks.com/kr/camera/area_scan'
 출처사이트: 'vieworks.com'
+
 ---
 
 # 카메라 · VX-25MG-M

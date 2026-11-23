@@ -1,13 +1,13 @@
----
-유형: '인덱스'
+---유형: '인덱스'
 대분류: '렌즈'
 소분류: 'Accessory (Lens), CCTV, Focus Tunable Lens, Macro & Line Scan, Microscope CCD Unit, Telecentric, Zoom'
 제품수: 1727
 상세문서수: 1727
 제조사: '복수 (fainstec 유통)'
+수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10121000'
 출처사이트: 'fainstec.com'
-수집일: '2026-11-20'
+
 ---
 
 # 렌즈 · fainstec 전체 목록 (1727종)

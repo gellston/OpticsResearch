@@ -1,22 +1,22 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Telecentric'
-렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 모델명: 'VS-TCM7-50CO'
 제조사: 'VS Technology'
+렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 배율: '7'
 WD_mm: '50.4'
 FOV: '카메라 + 렌즈 조합 시 산출'
 NA: '0.10'
-마운트: 'C'
 이미지서클: '22mm'
 Optical_Resolution: null
+마운트: 'C'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281502&page=1&catcode=10121100'
 출처사이트: 'fainstec.com'
 prdcode: '2605281502'
+
 ---
 
 # 렌즈 · VS-TCM7-50CO

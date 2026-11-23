@@ -1,13 +1,13 @@
----
-유형: '인덱스'
+---유형: '인덱스'
 대분류: '조명컨트롤러'
 소분류: 'Area Controller, Light Source, Line Controller'
 제품수: 62
 상세문서수: 62
 제조사: '복수 (fainstec 유통)'
+수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10141000'
 출처사이트: 'fainstec.com'
-수집일: '2026-11-20'
+
 ---
 
 # 조명컨트롤러 · fainstec 전체 목록 (62종)

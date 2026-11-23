@@ -1,18 +1,18 @@
----
-유형: '조명'
+---유형: '조명'
 대분류: '조명'
 소분류: 'Area Light'
-조명타입: 'BAR LIGHTING'
 모델명: 'LV-DB Series'
 제조사: 'LVS'
+조명타입: 'BAR LIGHTING'
 컬러옵션: 'SW/RD/GR/BL/UV/IR'
 전압: '12V / 24V'
+정격출력: '0.6 ~ 7.2 W'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281132&page=1&catcode=10141000'
 출처사이트: 'fainstec.com'
-정격출력: '0.6 ~ 7.2 W'
 prdcode: '2605281132'
+
 ---
 
 # 조명 · LV-DB Series

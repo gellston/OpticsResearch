@@ -1,11 +1,10 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Area Scan'
 모델명: 'VZ-8MTG-M/C'
 제조사: 'Vieworks'
-해상도_픽셀: '2840 × 2840'
 해상도_Mp: '8.07'
+해상도_픽셀: '2840 × 2840'
 픽셀사이즈_um: '2.74 × 2.74'
 센서: 'IMX546'
 인터페이스: '2.5 Gigabit Ethernet'
@@ -14,6 +13,7 @@
 수집일: '2026-11-23'
 출처: 'https://vision.vieworks.com/kr/camera/area_scan'
 출처사이트: 'vieworks.com'
+
 ---
 
 # 카메라 · VZ-8MTG-M/C

@@ -1,18 +1,18 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Area Controller'
 모델명: 'ALT-LSP300E-UL-24V-U'
 제조사: '알트시스템'
 조명타입: 'Area Controller'
-채널수: '1~8 Select'
 시리즈: 'UL Certification Controller'
+채널수: '1~8 Select'
 소비전력_W: '300'
 크기: 'W(mm) : 174, D(mm) : 353, H(mm) : 108'
 상태: '현행'
 수집일: '2026-11-23'
 출처: 'https://www.altsystem.co.kr/Controller'
 출처사이트: 'altsystem.co.kr'
+
 ---
 
 # 조명컨트롤러 · ALT-LSP300E-UL-24V-U

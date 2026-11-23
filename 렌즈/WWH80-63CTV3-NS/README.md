@@ -1,22 +1,22 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Telecentric'
-렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 모델명: 'WWH80-63CTV3-NS'
 제조사: 'Vico Imaging'
+렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 배율: '10'
 WD_mm: '63'
 FOV: '카메라 + 렌즈 조합 시 산출'
 NA: '0.145'
-마운트: 'C'
 이미지서클: '11.0(2/3)'
 Optical_Resolution: null
+마운트: 'C'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605283228&page=1&catcode=10121100'
 출처사이트: 'fainstec.com'
 prdcode: '2605283228'
+
 ---
 
 # 렌즈 · WWH80-63CTV3-NS

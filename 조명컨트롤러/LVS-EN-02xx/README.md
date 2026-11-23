@@ -1,16 +1,16 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Area Controller'
 모델명: 'LVS-EN-02xx'
 제조사: 'LVS'
 채널수: '2'
+최대지원출력: '60 W'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281181&page=1&catcode=10141300'
 출처사이트: 'fainstec.com'
-최대지원출력: '60 W'
 prdcode: '2605281181'
+
 ---
 
 # 조명 · LVS-EN-02xx

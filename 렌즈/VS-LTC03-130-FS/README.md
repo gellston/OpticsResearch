@@ -1,22 +1,22 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Telecentric'
-렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 모델명: 'VS-LTC03-130-FS'
 제조사: 'VS Technology'
+렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 배율: '0.3'
 WD_mm: '130.2'
 FOV: '카메라 + 렌즈 조합 시 산출'
 NA: '0.03'
-마운트: 'F'
 이미지서클: '22mm'
 Optical_Resolution: null
+마운트: 'F'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281473&page=1&catcode=10121100'
 출처사이트: 'fainstec.com'
 prdcode: '2605281473'
+
 ---
 
 # 렌즈 · VS-LTC03-130-FS

@@ -1,5 +1,4 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Smart Camera'
 모델명: 'Inno-eye S2006'
@@ -16,6 +15,7 @@
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281025&page=1&catcode=10111200'
 출처사이트: 'fainstec.com'
 prdcode: '2605281025'
+
 ---
 
 # 카메라 · Inno-eye S2006

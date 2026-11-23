@@ -1,22 +1,22 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Telecentric'
-렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 모델명: 'DTCM71M-18.4-M58-AL'
 제조사: 'Vico Imaging'
+렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 배율: '2.12'
 WD_mm: '32'
 FOV: '카메라 + 렌즈 조합 시 산출'
 NA: '0.08038'
-마운트: 'C, F'
 이미지서클: '39'
 Optical_Resolution: null
+마운트: 'C, F'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605282516&page=1&catcode=10121100'
 출처사이트: 'fainstec.com'
 prdcode: '2605282516'
+
 ---
 
 # 렌즈 · DTCM71M-18.4-M58-AL

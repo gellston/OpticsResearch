@@ -1,5 +1,4 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Line Scan'
 모델명: 'Manx-2048-SQ-CXP'
@@ -7,15 +6,16 @@
 해상도_Mp: '2'
 해상도_픽셀: '2048 x 1'
 픽셀사이즈_um: '12.5 x 12.5'
-센서: 'InGaAs'
 인터페이스: 'COAXPRESS'
 마운트: 'M42, F'
 프레임레이트: '260'
+센서: 'InGaAs'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605280974&page=1&catcode=10111100'
 출처사이트: 'fainstec.com'
 prdcode: '2605280974'
+
 ---
 
 # 카메라 · Manx-2048-SQ-CXP

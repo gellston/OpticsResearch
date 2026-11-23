@@ -1,10 +1,9 @@
----
-유형: '조명'
+---유형: '조명'
 대분류: '조명'
 소분류: 'Area Light'
-조명타입: 'BAR LIGHTING'
 모델명: 'LV-DB2-SL Series'
 제조사: 'LVS'
+조명타입: 'BAR LIGHTING'
 컬러옵션: 'SW/RD/GR/BL/UV/IR'
 전압: '12V / 24V'
 상태: '현행'
@@ -12,6 +11,7 @@
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281130&page=1&catcode=10141000'
 출처사이트: 'fainstec.com'
 prdcode: '2605281130'
+
 ---
 
 # 조명 · LV-DB2-SL Series

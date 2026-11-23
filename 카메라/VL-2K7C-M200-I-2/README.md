@@ -1,19 +1,19 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Line Scan'
 모델명: 'VL-2K7C-M200 I-2'
 제조사: 'Vieworks'
-해상도_픽셀: '2048 x 2'
 해상도_Mp: '0'
+해상도_픽셀: '2048 x 2'
 픽셀사이즈_um: '7.0 x 7.0'
-센서: 'Vieworks'
 인터페이스: 'Camera Link'
+센서: 'Vieworks'
 시리즈: 'VL Series'
 상태: '현행'
 수집일: '2026-11-23'
 출처: 'https://vision.vieworks.com/kr/camera/line_scan'
 출처사이트: 'vieworks.com'
+
 ---
 
 # 카메라 · VL-2K7C-M200 I-2

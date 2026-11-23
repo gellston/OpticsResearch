@@ -1,11 +1,10 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Area Scan'
 모델명: 'VQ-20MG2-M/C'
 제조사: 'Vieworks'
-해상도_픽셀: '5472 × 3648'
 해상도_Mp: '19.96'
+해상도_픽셀: '5472 × 3648'
 픽셀사이즈_um: '2.4 × 2.4'
 센서: 'IMX183'
 인터페이스: 'Gigabit Ethernet'
@@ -14,6 +13,7 @@
 수집일: '2026-11-23'
 출처: 'https://vision.vieworks.com/kr/camera/area_scan'
 출처사이트: 'vieworks.com'
+
 ---
 
 # 카메라 · VQ-20MG2-M/C

@@ -1,13 +1,13 @@
----
-유형: '인덱스'
+---유형: '인덱스'
 대분류: '카메라'
 소분류: 'Area Scan, CIS, Line Scan, Smart Camera'
 제품수: 1394
 상세문서수: 1394
 제조사: '복수 (fainstec 유통)'
+수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10111000'
 출처사이트: 'fainstec.com'
-수집일: '2026-11-20'
+
 ---
 
 # 카메라 · fainstec 전체 목록 (1394종)

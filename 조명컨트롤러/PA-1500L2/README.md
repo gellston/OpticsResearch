@@ -1,16 +1,16 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Area Controller'
 모델명: 'PA-1500L2'
 제조사: 'LVS'
 채널수: '1'
+최대지원출력: '1500 W'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281169&page=1&catcode=10141300'
 출처사이트: 'fainstec.com'
-최대지원출력: '1500 W'
 prdcode: '2605281169'
+
 ---
 
 # 조명 · PA-1500L2

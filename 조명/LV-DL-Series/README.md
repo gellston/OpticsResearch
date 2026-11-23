@@ -1,18 +1,18 @@
----
-유형: '조명'
+---유형: '조명'
 대분류: '조명'
 소분류: 'Area Light'
-조명타입: 'LOW-ANGLE RING LIGHTING'
 모델명: 'LV-DL Series'
 제조사: 'LVS'
+조명타입: 'LOW-ANGLE RING LIGHTING'
 컬러옵션: 'SW/RD/GR/BL'
 전압: '12V / 24V'
+정격출력: '1.1 ~ 7.2 W'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281129&page=1&catcode=10141000'
 출처사이트: 'fainstec.com'
-정격출력: '1.1 ~ 7.2 W'
 prdcode: '2605281129'
+
 ---
 
 # 조명 · LV-DL Series

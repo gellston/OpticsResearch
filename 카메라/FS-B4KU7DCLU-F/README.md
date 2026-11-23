@@ -1,5 +1,4 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Line Scan'
 모델명: 'FS-B4KU7DCLU-F'
@@ -7,15 +6,16 @@
 해상도_Mp: '4'
 해상도_픽셀: '4096 x 2'
 픽셀사이즈_um: '7 x 7'
-센서: 'DR-2X4K-7'
 인터페이스: 'CAMERALINK'
 마운트: 'F'
 프레임레이트: '160'
+센서: 'DR-2X4K-7'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605280957&page=1&catcode=10111100'
 출처사이트: 'fainstec.com'
 prdcode: '2605280957'
+
 ---
 
 # 카메라 · FS-B4KU7DCLU-F

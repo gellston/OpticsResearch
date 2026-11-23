@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Macro & Line Scan'
-렌즈타입: '매크로·라인스캔 렌즈 (Macro & Line Scan)'
 모델명: 'VS-MC10-FNO5.6'
 제조사: 'VS Technology'
+렌즈타입: '매크로·라인스캔 렌즈 (Macro & Line Scan)'
 배율: '0.02~0.15'
 WD_mm: '57.8~502.8'
 FOV: '카메라 + 렌즈 조합 시 산출'
@@ -16,6 +15,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281344&page=1&catcode=10121000'
 출처사이트: 'fainstec.com'
 prdcode: '2605281344'
+
 ---
 
 # 렌즈 · VS-MC10-FNO5.6

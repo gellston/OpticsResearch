@@ -1,22 +1,22 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Telecentric'
-렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 모델명: 'WWH022-250AT-125'
 제조사: 'Vico Imaging'
+렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 배율: '0.22'
 WD_mm: '250'
 FOV: '카메라 + 렌즈 조합 시 산출'
 NA: '0.00827'
-마운트: 'C'
 이미지서클: '7.2(1/2.5)'
 Optical_Resolution: null
+마운트: 'C'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605282530&page=1&catcode=10121100'
 출처사이트: 'fainstec.com'
 prdcode: '2605282530'
+
 ---
 
 # 렌즈 · WWH022-250AT-125

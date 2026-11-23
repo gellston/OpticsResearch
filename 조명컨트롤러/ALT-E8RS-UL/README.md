@@ -1,18 +1,18 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Area Controller'
 모델명: 'ALT-E8RS-UL'
 제조사: '알트시스템'
 조명타입: 'Area Controller'
-채널수: '8'
 시리즈: 'UL Certification Controller'
+채널수: '8'
 소비전력_W: '500'
 크기: 'W(mm) : 140, D(mm) : 235, H(mm) : 130'
 상태: '현행'
 수집일: '2026-11-23'
 출처: 'https://www.altsystem.co.kr/Controller'
 출처사이트: 'altsystem.co.kr'
+
 ---
 
 # 조명컨트롤러 · ALT-E8RS-UL

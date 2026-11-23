@@ -1,7 +1,7 @@
 ---
 유형: '인덱스'
 대분류: '카메라'
-소분류: "Area Scan, Line Scan, TDI Line Scan"
+소분류: Area Scan, Line Scan, TDI Line Scan
 제품수: 183
 상세문서수: 183
 제조사: 'Vieworks'

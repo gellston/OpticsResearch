@@ -1,15 +1,15 @@
----
-유형: '조명'
+---유형: '조명'
 대분류: '조명'
 소분류: 'Line Light'
-조명타입: 'LINE LIGHT'
 모델명: 'SPX-iT4'
 제조사: 'REVOX'
+조명타입: 'LINE LIGHT'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281135&page=1&catcode=10141100'
 출처사이트: 'fainstec.com'
 prdcode: '2605281135'
+
 ---
 
 # 조명 · SPX-iT4

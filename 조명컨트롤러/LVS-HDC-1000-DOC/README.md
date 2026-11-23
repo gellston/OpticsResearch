@@ -1,16 +1,16 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Area Controller'
-조명타입: '정접압, 스트로브'
 모델명: 'LVS-HDC-1000-DOC'
 제조사: 'LVS'
+조명타입: '정접압, 스트로브'
 채널수: '4'
 상태: '현행'
 수집일: '2026-11-20'
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281163&page=1&catcode=10141300'
 출처사이트: 'fainstec.com'
 prdcode: '2605281163'
+
 ---
 
 # 조명 · LVS-HDC-1000-DOC

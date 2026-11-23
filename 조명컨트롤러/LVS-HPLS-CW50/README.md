@@ -1,5 +1,4 @@
----
-유형: '조명컨트롤러'
+---유형: '조명컨트롤러'
 대분류: '조명컨트롤러'
 소분류: 'Light Source'
 모델명: 'LVS-HPLS-CW50'
@@ -9,6 +8,7 @@
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281154&page=1&catcode=10141200'
 출처사이트: 'fainstec.com'
 prdcode: '2605281154'
+
 ---
 
 # 조명 · LVS-HPLS-CW50

@@ -1,10 +1,9 @@
----
-유형: '조명'
+---유형: '조명'
 대분류: '조명'
 소분류: 'Area Light'
-조명타입: 'SPOT LIGHTING'
 모델명: 'LV-SHL Series'
 제조사: 'LVS'
+조명타입: 'SPOT LIGHTING'
 컬러옵션: 'SW/RD/GR/BL'
 전압: '12V / 24V'
 상태: '현행'
@@ -12,6 +11,7 @@
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605281116&page=1&catcode=10141000'
 출처사이트: 'fainstec.com'
 prdcode: '2605281116'
+
 ---
 
 # 조명 · LV-SHL Series

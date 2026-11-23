@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'CCTV'
-렌즈타입: 'CCTV(일반) 렌즈 (CCTV)'
 모델명: 'MFA110-H12'
 제조사: 'Vico Imaging'
+렌즈타입: 'CCTV(일반) 렌즈 (CCTV)'
 WD_mm: '100 ~ ∞'
 FOV: '카메라 + 렌즈 조합 시 산출'
 마운트: 'C'
@@ -15,6 +14,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605282105&page=1&catcode=10121200'
 출처사이트: 'fainstec.com'
 prdcode: '2605282105'
+
 ---
 
 # 렌즈 · MFA110-H12

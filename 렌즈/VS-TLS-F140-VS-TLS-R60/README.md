@@ -1,10 +1,9 @@
----
-유형: '렌즈'
+---유형: '렌즈'
 대분류: '렌즈'
 소분류: 'Telecentric'
-렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 모델명: 'VS-TLS-F140/VS-TLS-R60'
 제조사: 'VS Technology'
+렌즈타입: '텔레센트릭 렌즈 (Telecentric)'
 배율: '0.454'
 WD_mm: '100'
 FOV: '카메라 + 렌즈 조합 시 산출'
@@ -16,6 +15,7 @@ Optical_Resolution: null
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605282053&page=1&catcode=10121100'
 출처사이트: 'fainstec.com'
 prdcode: '2605282053'
+
 ---
 
 # 렌즈 · VS-TLS-F140/VS-TLS-R60

@@ -1,5 +1,4 @@
----
-유형: '카메라'
+---유형: '카메라'
 대분류: '카메라'
 소분류: 'Line Scan'
 모델명: 'PH9KCXP12-530KT256'
@@ -15,6 +14,7 @@
 출처: 'https://www.fainstec.com/product/product.php?ptype=view&prdcode=2605283349&page=1&catcode=10111100'
 출처사이트: 'fainstec.com'
 prdcode: '2605283349'
+
 ---
 
 # 카메라 · PH9KCXP12-530KT256

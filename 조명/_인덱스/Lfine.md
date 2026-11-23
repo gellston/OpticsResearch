@@ -1,7 +1,7 @@
 ---
 유형: '인덱스'
 대분류: '조명'
-소분류: "Area Light, Line Light"
+소분류: Area Light, Line Light
 제품수: 27
 상세문서수: 27
 제조사: '엘파인'
