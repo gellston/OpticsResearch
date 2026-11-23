@@ -33,7 +33,7 @@
 
 ## 전체 제품 색인
 
-아래 인덱스 파일에는 현재 수집된 렌즈 전체 1727종이 포함되어 있습니다. prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다. (현재 출처: 화인스텍(FAINSTEC) · fainstec.com)
+아래 인덱스 파일에는 현재 수집된 렌즈 전체 1727종이 포함되어 있습니다. `prdcode`는 출처 사이트의 제품 코드이며, 상세 URL은 `https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode>` 형식입니다.
 
 - **fainstec.com (화인스텍)** (1727종) → [_인덱스/Fainstec.md](_인덱스/Fainstec.md)
   - Accessory (Lens) 7 · CCTV 455 · Focus Tunable Lens 8 · Macro & Line Scan 145 · Microscope CCD Unit 15 · Telecentric 1084 · Zoom 13

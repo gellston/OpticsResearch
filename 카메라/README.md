@@ -5,8 +5,8 @@
 상세문서수: 1676
 소분류: 'Area Scan, CIS, Line Scan, TDI Line Scan, Smart Camera, SWIR, Polarization, 3CMOS'
 수집일: '2026-11-20'
-출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10111000'
-출처사이트: 'fainstec.com, crevis.co.kr'
+출처: 'fainstec.com · crevis.co.kr · vieworks.com'
+출처사이트: 'fainstec.com, crevis.co.kr, vieworks.com'
 ---
 
 # 카메라

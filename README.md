@@ -4,8 +4,8 @@
 총수집품수: 3670
 상세문서수: 3670
 수집일: '2026-11-20'
-현재출처: '화인스텍(FAINSTEC) (fainstec.com)'
-수용범위: '화인스텍 외 다른 기업의 광학계 자료도 지속 추가'
+수록출처: 'fainstec.com · crevis.co.kr · vieworks.com · altsystem.co.kr · lfine.co.kr'
+수용범위: '제조사·유통사 무관 — 새 출처는 대분류·필수 필드·문서 형식을 동일하게 유지해 추가'
 ---
 
 # 광학정보모음집 — 카메라 · 렌즈 · 조명 · 조명컨트롤러
@@ -15,7 +15,7 @@
 ## 이 광학정보모음집에 대하여
 
 - **범위**: 카메라 · 렌즈 · 조명(발광 소자) · 조명컨트롤러(광원·구동 장치) 네 대분류의 광학계 부품 사양과 조합·선정 기준을 모아 두는 **광학정보 모음집**입니다.
-- **참고 기업**: 현재 수록 자료는 **화인스텍(FAINSTEC)** 을 조사·참고하여 정리했습니다(하단 [현재 수록 출처 (참고 기업)](#현재-수록-출처-참고-기업) 참조).
+- **수록 출처**: 현재 **5개 출처**의 자료를 모아 두었습니다 — **화인스텍(fainstec)** · **크래비스(CREVIS)** · **뷰웍스(Vieworks)** · **알트시스템(Altsystem)** · **엘파인(Lfine)**. 출처별 상세는 하단 [현재 수록 출처](#현재-수록-출처-참고-기업)를 참조합니다.
 - **다른 기업의 자료도 수용**: 특정 회사 전용이 아닙니다. 다른 제조사/공급처의 광학계 정보도 이 모음집에 **지속 추가**되며, 추가 시에도 대분류·필수 필드·문서 형식은 동일하게 유지합니다.
 - **구조**: `대분류/모델명/README.md` — frontmatter(검색용 키워드) → 요약 → 핵심 사양 → 전체 사양 → 조합 참고 → 출처 순.
 - **출처 표기**: 각 문서의 frontmatter `출처` URL과 본문의 링크가 원본 페이지를 가리킵니다. 도면·사양서 PDF 링크는 원본 그대로 유지합니다.
@@ -78,7 +78,7 @@ OpticsResearch/
 
 > 아래는 **현재** 이 모음집에 들어 있는 데이터의 원본(참고 기업)입니다. 추후 다른 회사의 광학계 정보가 추가되면 출처 목록도 함께 갱신합니다.
 
-- **화인스텍(FAINSTEC)** — https://www.fainstec.com (현재까지의 조사·정리 기준)
+- **화인스텍(FAINSTEC)** — https://www.fainstec.com (2026-11-20 추가 · **가장 큰 비중 — 카메라·렌즈·조명 전반**)
   - 카메라: `https://www.fainstec.com/product/product.php?ptype=list&catcode=10111000` (Area / Line 10111100 / Smart 10111200 / CIS 10111300)
   - 렌즈: `https://www.fainstec.com/product/product.php?ptype=list&catcode=10121000` (Telecentric 10121100 / CCTV 10121200 / Zoom 10121300 / Focus Tunable 10121400 / Microscope 10121500 / Accessory 10121600)
   - 조명: `https://www.fainstec.com/product/product.php?ptype=list&catcode=10141000` (Line 10141100 / Light Source 10141200 / Area Ctrl 10141300 / Line Ctrl 10141400)

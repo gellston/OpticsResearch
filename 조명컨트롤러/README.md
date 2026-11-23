@@ -5,8 +5,8 @@
 상세문서수: 99
 소분류: 'Area Controller, Light Source, Line Controller'
 수집일: '2026-11-20'
-출처: 'https://www.fainstec.com/product/product.php?ptype=list&catcode=10141000'
-출처사이트: 'fainstec.com'
+출처: 'fainstec.com · altsystem.co.kr · lfine.co.kr'
+출처사이트: 'fainstec.com, altsystem.co.kr, lfine.co.kr'
 ---
 
 # 조명컨트롤러
@@ -44,7 +44,9 @@
 
 ## 전체 제품 색인
 
-아래 인덱스 파일에는 현재 수집된 조명컨트롤러 전체 99종이 포함되어 있습니다. prdcode는 출처 사이트의 제품 코드이며, 상세 URL은 https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode> 형식입니다. (현재 출처: 화인스텍(FAINSTEC) · fainstec.com)
+아래 인덱스 파일에는 현재 수집된 조명컨트롤러 전체 99종이 포함되어 있습니다. **출처별로 인덱스가 나뉘어** 있으며, 각 인덱스 frontmatter의 `출처`·`출처사이트`가 원본을 가리킵니다.
+
+fainstec 항목의 `prdcode`는 화인스텍 사이트의 제품 코드이고, 상세 URL은 `https://www.fainstec.com/product/product.php?ptype=view&prdcode=<prdcode>&page=1&catcode=<catcode>` 형식입니다. 다른 출처는 자체 식별자(`idx` 등)를 사용합니다.
 
 - **fainstec.com (화인스텍)** (62종: Area Controller 19 · Light Source 17 · Line Controller 26) → [_인덱스/Fainstec.md](_인덱스/Fainstec.md)
 
